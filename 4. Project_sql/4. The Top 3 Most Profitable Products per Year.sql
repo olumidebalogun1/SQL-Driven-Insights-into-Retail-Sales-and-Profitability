@@ -74,19 +74,19 @@ ORDER BY
 /*
 Here's the breakdown of RESULT based on the QUERY above:
 
-Year	 Product Name	                          Category	        Total Profit	 Total Sales	 Total Quantity	  Total Orders	 Avg. Discount	 Profit Margin %	 Profit per Unit
-2020	Ibico EPK-21 Electric Binding System	 Office Supplies	   $4.63K	       $9.45K	          5	                 1	          0%	         49.00%          	$926.10
-2020	Canon imageCLASS MF7460 Copier	         Technology            $1.99K	       $3.99K	          2	                 1	          0%	         50.00%	            $998.00
-2020	Ativa V4110MDD Micro-Cut Shredder	     Technology	           $1.37K	       $2.79K	          4	                 1	          0%	         49.00%	            $343.00
+Year	 Product Name	                             Category	        Total Profit	     Total Sales     Total Quantity	  Total Orders	   Avg. Discount    Profit Margin %	 Profit per Unit
+2020	Ibico EPK-21 Electric Binding System	 Office Supplies	   $4.63K	       $9.45K	          5	                 1	          0%	         49.00%             $926.10
+2020	Canon imageCLASS MF7460 Copier	         Technology                $1.99K	       $3.99K	          2	                 1	          0%	         50.00%	            $998.00
+2020	Ativa V4110MDD Micro-Cut Shredder	 Technology	           $1.37K	       $2.79K	          4	                 1	          0%	         49.00%	            $343.00
 2021	Fellowes PB500 Binding Machine	         Office Supplies	   $7.50K	      $15.76K	         13	                 4	          5%	         47.58%        	    $576.83
-2021	Zebra ZM400 Thermal Label Printer	     Technology      	   $3.34K	       $6.97K	          6	                 2	          0%	         48.00%	            $557.26
-2021	Canon PC1060 Personal Laser Copier	     Technology	           $2.68K	       $6.02K	          9              	 2	         10%	         44.53%	            $297.88
-2022	Canon imageCLASS 2200 Copier	         Technology	           $9.52K	      $25.90K	          9	                 2	         20%	         36.76%   	       $1057.78
-2022	GBC Ibimaster 500 Binding System	     Office Supplies	   $2.97K	      $12.86K	         26	                 4	         53%	         23.08%	            $114.15
-2022	HP Designjet T520 Printer	             Technology	           $2.80K	       $8.75K	          5	                 1	          0%	         32.00%	            $560.00
+2021	Zebra ZM400 Thermal Label Printer	 Technology      	   $3.34K	       $6.97K	          6	                 2	          0%	         48.00%	            $557.26
+2021	Canon PC1060 Personal Laser Copier	 Technology	           $2.68K	       $6.02K	          9              	 2	         10%	         44.53%	            $297.88
+2022	Canon imageCLASS 2200 Copier	         Technology	           $9.52K	      $25.90K	          9	                 2	         20%	         36.76%   	   $1057.78
+2022	GBC Ibimaster 500 Binding System	 Office Supplies	   $2.97K	      $12.86K	         26	                 4	         53%	         23.08%	            $114.15
+2022	HP Designjet T520 Printer	         Technology	           $2.80K	       $8.75K	          5	                 1	          0%	         32.00%	            $560.00
 2023	Canon imageCLASS 2200 Copier	         Technology	          $15.68K	      $35.70K	         11	                 3	          7%	         43.92%	           $1425.45
-2023	Hewlett Packard LaserJet 3310 Copier	 Technology	           $3.62K	       $9.24K	         18	                 4	         15%	         39.22%         	$201.33
-2023	GBC DocuBind TL300 Binding System	     Office Supplies	   $1.91K	      $10.94K	         19	                 5	         32%	         17.46%	            $100.56
+2023	Hewlett Packard LaserJet 3310 Copier	 Technology	           $3.62K	       $9.24K	         18	                 4	         15%	         39.22%             $201.33
+2023	GBC DocuBind TL300 Binding System	 Office Supplies	   $1.91K	      $10.94K	         19	                 5	         32%	         17.46%	            $100.56
 
 🔎 INSIGHTS & TRENDS
 1.  Technology Products Drive Profitability
