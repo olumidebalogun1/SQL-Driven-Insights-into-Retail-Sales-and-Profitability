@@ -49,27 +49,27 @@ LIMIT 20;
 /*
 Here's the breakdown of RESULT based on the QUERY above:
 
-Customer Name	         State	      Total Profit	 Total Sales	 Total Quantity	 Total Orders Placed	 Avg. Discount	 Profit Margin %	 Profit per Unit
-Tamara Chand	        Indiana	        $8.76K	      $18.34K	             18         	5	                 0%	             47.79%	             $486.80
-Raymond Buch	        Washington	    $6.73K	      $14.05K	              9	            3	                 0%           	 47.92%     	     $748.27
-Hunter Lopez	        Delaware	    $5.04K	      $10.50K	              3	            1	                 0%	             48%	            $1,680.00
-Adrian Barton	        Michigan	    $4.95K	      $9.89K	             13          	1	                 0%	             50%	              $380.49
-Sanjit Chand	        Minnesota	    $4.67K	      $9.90K	             17	            4	                 0%	             47.16%	              $274.63
-Tom Ashbrook	        New York	    $4.60K	      $13.72K	             22	            5	                 4%	             33.51%	              $209.06
-Christopher Martinez	Georgia	        $3.19K	      $6.41K	             12	            4	                 0%	             49.78%	              $266.01
-Sanjit Engle	        Virginia        $2.83K	      $8.81K	             20	            3	                 0%	             32.09%           	  $141.26
-Daniel Raglin	        Rhode Island	$2.64K	      $5.55K	             13	            3	                 0%	             47.58%	              $203.11
-Andy Reiter	            Michigan	    $2.60K	      $5.80K	             14	            3	                 0%	             44.84%	              $185.86
-Keith Dawkins	        New York	    $2.51K	      $5.85K	             18          	6	                 2%	             42.89%	              $139.49
-Bill Shonely	        New Jersey	    $2.38K	      $9.14K	             14	            3	                 0%	             26.07%	              $170.08
-Harry Marie	            Missouri	    $2.31K	      $4.91K	              9	            2	                 0%	             46.98%	              $256.31
-Karen Daniels	        New York	    $2.28K	      $6.24K	             22	            6	                 7%	             36.58%	              $103.78
-Nathan Mautz	        New York	    $2.25K	      $4.82K	             17	            6	                 5%	             46.61%	              $132.19
-Tom Boeckenhauer	    New York	    $2.24K	      $7.00K	              4   	        1	                 0%	             32.00%	              $560.00
-Jane Waco	            California	    $2.07K	      $7.38K	             33         	6	                13%	             28.04%           	    $62.72
-Shirley Daniels	        Michigan	    $1.95K	      $4.00K	              4	            2	                 5%	             48.7%	               $487.00
-Fred Hopkins	        Washington	    $1.93K	      $4.61K	             12	            3	                 0%	             41.9%	               $160.87
-Steven Roelle	        New York	    $1.86K	      $3.90K	             21	            4	                 0%	             47.74%   	            $88.76
+Customer Name	         State	      Total Profit	 Total Sales	     Total Quantity	 Total Orders Placed	   Avg. Discount        Profit Margin %	       Profit per Unit
+Tamara Chand	        Indiana	         $8.76K	          $18.34K	             18         	5	                 0%	             47.79%	             $486.80
+Raymond Buch	        Washington	 $6.73K	          $14.05K	              9	                3	                 0%           	     47.92%     	     $748.27
+Hunter Lopez	        Delaware	 $5.04K	          $10.50K	              3	                1	                 0%	             48%	            $1,680.00
+Adrian Barton	        Michigan	 $4.95K	           $9.89K	             13          	1	                 0%	             50%	              $380.49
+Sanjit Chand	        Minnesota	 $4.67K	           $9.90K	             17	                4	                 0%	             47.16%	              $274.63
+Tom Ashbrook	        New York	 $4.60K	          $13.72K	             22	                5	                 4%	             33.51%	              $209.06
+Christopher Martinez	Georgia	         $3.19K	           $6.41K	             12	                4	                 0%	             49.78%	              $266.01
+Sanjit Engle	        Virginia         $2.83K	           $8.81K	             20	                3	                 0%	             32.09%           	      $141.26
+Daniel Raglin	        Rhode Island	 $2.64K	           $5.55K	             13	                3	                 0%	             47.58%	              $203.11
+Andy Reiter	        Michigan	 $2.60K	           $5.80K	             14	                3	                 0%	             44.84%	              $185.86
+Keith Dawkins	        New York	 $2.51K	           $5.85K	             18          	6	                 2%	             42.89%	              $139.49
+Bill Shonely	        New Jersey	 $2.38K	           $9.14K	             14	                3	                 0%	             26.07%	              $170.08
+Harry Marie	        Missouri	 $2.31K	           $4.91K	              9	                2	                 0%	             46.98%	              $256.31
+Karen Daniels	        New York	 $2.28K	           $6.24K	             22	                6	                 7%	             36.58%	              $103.78
+Nathan Mautz	        New York	 $2.25K	           $4.82K	             17	                6	                 5%	             46.61%	              $132.19
+Tom Boeckenhauer	New York	 $2.24K	           $7.00K	              4   	        1	                 0%	             32.00%	              $560.00
+Jane Waco	        California	 $2.07K	           $7.38K	             33         	6	                13%	             28.04%           	       $62.72
+Shirley Daniels	        Michigan	 $1.95K	           $4.00K	              4	                2	                 5%	             48.7%	               $487.00
+Fred Hopkins	        Washington	 $1.93K	           $4.61K	             12	                3	                 0%	             41.9%	               $160.87
+Steven Roelle	        New York	 $1.86K	           $3.90K	             21	                4	                 0%	             47.74%   	                $88.76
 
 🔎 INSIGHTS & TRENDS
 1.  High-Value Customers Driving Profitability:
