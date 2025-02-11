@@ -47,27 +47,27 @@ LIMIT 20;
 /*
 Here's the breakdown of RESULT based on the QUERY above:
 
-City	          State	       Total Profit	    Total Sales	  Total Quantity	 Total Orders Placed	 Avg. Discount     Profit Margin %   Profit per Unit
-New York City	  New York	    $62,025.54	    $256,343.56 	3,415	               914	                6%                 24.2%	        $18.16
-Los Angeles	      California	$30,440.94	    $175,851.33	    2,879	               747	                7%                 17.31%         	$10.57
-Seattle	          Washington	$29,156.13	    $119,540.74	    1,590	               428	                6%                 24.39%         	$18.34
-San Francisco	  California	$17,507.39	    $112,669.09	    1,935	               510	                7%                 15.54%	         $9.05
-Detroit	          Michigan	    $13,181.79	     $42,446.94	      441	               115	                1%                 31.05%	        $29.89
-Lafayette	      Indiana	     $8,976.10	     $19,630.45	       43	                12	                0%                 45.73%	       $208.75
-Newark	          Delaware	     $8,086.18	     $20,448.05	      225	                60	                0%                 39.54%	         $35.94
-Atlanta	          Georgia	     $6,993.69	     $17,197.84    	  156	                39	                0%                 40.67%	         $44.83
-Minneapolis	      Minnesota	     $6,824.61	     $16,870.54	       80	                23	                0%                 40.45%	         $85.31
-Henderson	      Kentucky	     $6,763.81	     $24,590.38	      235	                59	                0%                 27.51%	         $28.78
-San Diego	      California	 $6,448.30	     $48,113.03   	  683	               175	                8%                 13.4%	          $9.44
-Jackson	          Michigan	     $5,525.19	     $15,420.03	      132	                38	                1%                 35.83%	         $41.86
-Providence	      Rhode Island	 $5,505.67	     $15,980.65  	  118	                31	                1%                 34.45%	         $46.66
-Springfield	      Virginia	     $4,485.56	     $16,342.15	      195	                49	                0%                 27.45%	         $23.00
-Arlington	      Virginia	     $4,424.09	     $14,366.76   	  128	                32	                0%                 30.79%	         $34.56
-Columbus	      Georgia	     $4,104.12	     $14,845.05	      258	                68	                0%                 27.65%	         $15.91
-Springfield   	  Missouri	     $3,905.59	     $15,051.38  	  151	                39	                0%                 25.95%	         $25.86
-Lakewood	      New Jersey	 $3,526.67	     $14,852.04	       93	                24	                0%                 23.75%	         $37.92
-Columbia	      Maryland	     $3,301.59	      $9,329.21  	   81	                22	                0%                 35.39%	         $40.76
-Milwaukee	      Wisconsin      $2,793.09	     $11,410.22	      201	                45	                0%                 24.48%	         $13.90
+City	              State	       Total Profit	    Total Sales	    Total Quantity	 Total Orders Placed	 Avg. Discount     Profit Margin %   Profit per Unit
+New York City	     New York	       $62,025.54	    $256,343.56 	3,415	               914	                6%                 24.2%	        $18.16
+Los Angeles	     California	       $30,440.94	    $175,851.33	        2,879	               747	                7%                 17.31%         	$10.57
+Seattle	             Washington	       $29,156.13	    $119,540.74	        1,590	               428	                6%                 24.39%         	$18.34
+San Francisco	     California	       $17,507.39	    $112,669.09	        1,935	               510	                7%                 15.54%	         $9.05
+Detroit	             Michigan	       $13,181.79	     $42,446.94	          441	               115	                1%                 31.05%	        $29.89
+Lafayette	     Indiana	        $8,976.10	     $19,630.45	           43	                12	                0%                 45.73%	       $208.75
+Newark	             Delaware	        $8,086.18	     $20,448.05	          225	                60	                0%                 39.54%	         $35.94
+Atlanta	             Georgia	        $6,993.69	     $17,197.84    	  156	                39	                0%                 40.67%	         $44.83
+Minneapolis	     Minnesota	        $6,824.61	     $16,870.54	           80	                23	                0%                 40.45%	         $85.31
+Henderson	     Kentucky	        $6,763.81	     $24,590.38	          235	                59	                0%                 27.51%	         $28.78
+San Diego	     California	        $6,448.30	     $48,113.03   	  683	               175	                8%                 13.4%	          $9.44
+Jackson	             Michigan	        $5,525.19	     $15,420.03	          132	                38	                1%                 35.83%	         $41.86
+Providence	     Rhode Island       $5,505.67	     $15,980.65  	  118	                31	                1%                 34.45%	         $46.66
+Springfield	     Virginia	        $4,485.56	     $16,342.15	          195	                49	                0%                 27.45%	         $23.00
+Arlington	     Virginia	        $4,424.09	     $14,366.76   	  128	                32	                0%                 30.79%	         $34.56
+Columbus	     Georgia	        $4,104.12	     $14,845.05	          258	                68	                0%                 27.65%	         $15.91
+Springfield   	     Missouri	        $3,905.59	     $15,051.38  	  151	                39	                0%                 25.95%	         $25.86
+Lakewood	     New Jersey	        $3,526.67	     $14,852.04	           93	                24	                0%                 23.75%	         $37.92
+Columbia	     Maryland	        $3,301.59	      $9,329.21  	   81	                22	                0%                 35.39%	         $40.76
+Milwaukee	     Wisconsin          $2,793.09	     $11,410.22	          201	                45	                0%                 24.48%	         $13.90
 
 🔎 INSIGHTS & TRENDS
 1. Top Profitable Cities:
