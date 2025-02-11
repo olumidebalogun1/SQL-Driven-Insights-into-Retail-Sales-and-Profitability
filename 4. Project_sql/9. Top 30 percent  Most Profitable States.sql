@@ -65,20 +65,20 @@ ORDER BY
 Here's the breakdown of RESULT based on the QUERY above:
 
  State	        Total Profit	 Total Sales	 Total Quantity	 Total Orders Placed	 Avg. Discount	 Profit Margin %	 Profit per Unit	 Cumulative Distribution
-California	     $77.84K	      $465.33K	       7,805	         2,040	                  7%	          16.73%	          $9.97                	2%
-New York	     $74.03K	      $310.85K	       4,222	         1,127	                  6%	          23.81%	         $17.53                	4%
-Washington	     $33.40K	      $138.64K	       1,883	           506	                  6%	          24.09%	         $17.74                	6%
+California	     $77.84K	      $465.33K	       7,805	         2,040	                  7%	          16.73%	          $9.97                	    2%
+New York	     $74.03K	      $310.85K	       4,222	         1,127	                  6%	          23.81%	         $17.53                	    4%
+Washington	     $33.40K	      $138.64K	       1,883	           506	                  6%	          24.09%	         $17.74                     6%
 Michigan	     $24.46K	      $76.27K	         946	           255	                  1%	          32.07%	         $25.86	                    8%
 Virginia	     $18.51K	      $70.35K	         890	           223	                  0%	          26.32%	         $20.80	                   10%
-Indiana       	 $18.38K	      $53.56K	         578	           149	                  0%	          34.33%	         $31.80	                   12%
-Georgia	         $16.25K	      $49.10K	         705	           184	                  0%	          33.10%	         $23.05	                   14%
+Indiana       	     $18.38K	      $53.56K	         578	           149	                  0%	          34.33%	         $31.80	                   12%
+Georgia	             $16.25K	      $49.10K	         705	           184	                  0%	          33.10%	         $23.05	                   14%
 Kentucky	     $13.40K	      $45.43K	         567	           149	                  0%	          29.50%	         $23.64	                   16%
 Minnesota	     $10.82K	      $29.86K	         331	            89	                  0%	          36.24%	         $32.70	                   18%
 Delaware	      $9.98K	      $27.45K	         367	            96	                  1%	          36.35%	         $27.19	                   20%
 New Jersey	      $9.77K	      $35.76K	         454	           130	                  0%	          27.33%	         $21.53	                   22%
 Wisconsin	      $8.40K	      $32.11K	         463	           110	                  0%	          26.16%	         $18.15	                   24%
-Rhode Island	  $7.29K	      $22.63K	         199	            56	                  2%	          32.20%	         $36.61	                   26%
-Massachusetts	  $6.79K	      $28.63K	         491	           135	                  2%	          23.70%	         $13.82	                   28%
+Rhode Island	      $7.29K	      $22.63K	         199	            56	                  2%	          32.20%	         $36.61	                   26%
+Massachusetts	      $6.79K	      $28.63K	         491	           135	                  2%	          23.70%	         $13.82	                   28%
 Maryland	      $6.56K	      $22.07K	         411	           104	                  1%	          29.71%	         $15.96	                   30%
 
 🔎 INSIGHTS & TRENDS
