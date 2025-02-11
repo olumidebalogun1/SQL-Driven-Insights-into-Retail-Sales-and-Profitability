@@ -51,11 +51,11 @@ FROM
 /*
 Here's the breakdown of RESULT based on the QUERY above:
 
-Year	Total Sales 	 Total Profit 	 Total Quantity 	   Sales Growth 📉📈	  Profit Growth 🚀	   Quantity Growth 📉📈
-2020	$483,966.19	     $49,556.12	         7,579 Units	       ❌ N/A	             ❌ N/A	           ❌ N/A
-2021	$470,442.40	     $61,577.26	         7,973 Units	       🔻 -2.79%	         🚀 +24.26%	       🚀 +5.20%
-2022	$608,283.20	     $81,498.85	         9,813 Units	       🚀 +29.30%	         🚀 +32.35%	       🚀 +23.08%
-2023	$731,479.71 	 $92,952.09	        12,459 Units	       🚀 +20.25%	         🚀 +14.05%	       🚀 +26.96%
+Year	Total Sales 	    Total Profit 	Total Quantity 	   Sales Growth 📉📈	      Profit Growth 🚀	     Quantity Growth 📉📈
+2020	$483,966.19	     $49,556.12	         7,579 Units	       ❌ N/A	                 ❌ N/A	                  ❌ N/A
+2021	$470,442.40	     $61,577.26	         7,973 Units	       🔻 -2.79%	         🚀 +24.26%	          🚀 +5.20%
+2022	$608,283.20	     $81,498.85	         9,813 Units	       🚀 +29.30%	         🚀 +32.35%	          🚀 +23.08%
+2023	$731,479.71 	     $92,952.09	        12,459 Units	       🚀 +20.25%	         🚀 +14.05%	          🚀 +26.96%
 
 🔎 INSIGHTS & TRENDS
 ✅ Positive Trends:
