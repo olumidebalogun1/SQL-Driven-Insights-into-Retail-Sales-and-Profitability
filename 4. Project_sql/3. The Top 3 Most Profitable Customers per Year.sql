@@ -77,19 +77,19 @@ ORDER BY
 /*
 Here's the breakdown of RESULT based on the QUERY above:
 
-Year	 Customer Name	         State	     Total Profit	 Total Sales	 Total Quantity	  Total Orders	 Avg. Discount	 Profit Margin %   Profit per Unit
-2020	Sanjit Chand	        Minnesota	  $4.67K	      $9.90K	           17	           4	          0%	        47.16%	          $274.63
-2020	Nathan Mautz	        New York	  $2.24K	      $4.81K	           14	           5	          2%	        46.65%	          $160.20
-2020	Tom Boeckenhauer	    New York	  $2.24K	      $7.00K	            4	           1	          0%	        32.00%	          $560.00
-2021	Christopher Martinez	Georgia	      $3.19K	      $6.41K	           12	           4	          0%	        49.78%	          $266.01
-2021	Keith Dawkins	        New York	  $2.51K	      $5.85K	           16	           5	          2%	        42.89%	          $156.82
-2021	Harry Marie	            Missouri	  $2.31K	      $4.91K	            9	           2	          0%	        46.98%	          $256.31
-2022	Tamara Chand	        Indiana 	  $8.76K	      $18.34K	           18	           5	          0%	        47.79%	          $486.80
-2022	Adrian Barton	        Michigan	  $4.95K	      $9.89K	           13	           1	          0%	        50.00%	          $380.49
-2022	Sanjit Engle	        Virginia	  $2.83K	      $8.81K	           20	           3	          0%	        32.09%	          $141.26
-2023	Raymond Buch	        Washington	  $6.73K	      $14.05K	            9	           3	          0%	        47.92%	          $748.27
-2023	Hunter Lopez	        Delaware	  $5.04K	      $10.50K	            3	           1	          0%	        48.00%	         $1680.00
-2023	Tom Ashbrook	        New York	  $4.60K	      $13.72K	           22	           5	          4%	        33.51%	          $209.06
+Year	Customer Name	          State	       Total Profit	   Total Sales	   Total Quantity     Total Orders    Avg. Discount	 Profit Margin %     Profit per Unit
+2020	Sanjit Chand	        Minnesota	  $4.67K	      $9.90K	           17	           4	          0%	           47.16%	          $274.63
+2020	Nathan Mautz	        New York	  $2.24K	      $4.81K	           14	           5	          2%	           46.65%	          $160.20
+2020	Tom Boeckenhauer	New York	  $2.24K	      $7.00K	            4	           1	          0%	           32.00%	          $560.00
+2021	Christopher Martinez	Georgia	          $3.19K	      $6.41K	           12	           4	          0%	           49.78%	          $266.01
+2021	Keith Dawkins	        New York	  $2.51K	      $5.85K	           16	           5	          2%	           42.89%	          $156.82
+2021	Harry Marie	        Missouri	  $2.31K	      $4.91K	            9	           2	          0%	           46.98%	          $256.31
+2022	Tamara Chand	        Indiana 	  $8.76K	      $18.34K	           18	           5	          0%	           47.79%	          $486.80
+2022	Adrian Barton	        Michigan	  $4.95K	      $9.89K	           13	           1	          0%	           50.00%	          $380.49
+2022	Sanjit Engle	        Virginia	  $2.83K	      $8.81K	           20	           3	          0%	           32.09%	          $141.26
+2023	Raymond Buch	        Washington	  $6.73K	      $14.05K	            9	           3	          0%	           47.92%	          $748.27
+2023	Hunter Lopez	        Delaware	  $5.04K	      $10.50K	            3	           1	          0%	           48.00%	         $1680.00
+2023	Tom Ashbrook	        New York	  $4.60K	      $13.72K	           22	           5	          4%	           33.51%	          $209.06
 
 🔎 INSIGHTS & TRENDS
 1.	Consistently High Performers in Certain States:
