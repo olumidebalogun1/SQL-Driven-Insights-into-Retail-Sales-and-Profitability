@@ -67,12 +67,12 @@ ORDER BY
 /*
 Here's the breakdown of RESULT based on the QUERY above:
 
-Sub-Category	Category	     Total Profit	 Total Sales	Total Quantity	 Total Orders Placed	 Avg. Discount	  Profit Margin %	 Profit per Unit	 Cumulative Distribution
-Copiers	        Technology	       $55,617.90	 $149,528.01	     234	         68	                     16%	               37.2%	        $237.68	                 6%
-Accessories	    Technology	       $48,290.40	 $192,565.73	   3,125	        814           	          8%	               25.08%	         $15.45	                12%
-Phones	        Technology	       $46,936.74	 $356,702.42	   3,415	        925	                     16%	               13.16%	         $13.74	                18%
-Paper	        Office Supplies    $36,824.10	  $84,786.16	   5,489	      1,454           	          8%	               43.43%	          $6.71	                24%
-Binders	        Office Supplies	   $30,331.66	 $211,141.67	   6,113	      1,561	                     37%	               14.37%	          $4.96	                29%
+Sub-Category	 Category	      Total Profit	 Total Sales	 Total Quantity	   Total Orders Placed	    Avg. Discount	  Profit Margin %	 Profit per Unit	 Cumulative Distribution
+Copiers	        Technology	       $55,617.90	 $149,528.01	      234	          68	                 16%	               37.2%	            $237.68	                 6%
+Accessories	Technology	       $48,290.40	 $192,565.73	    3,125	         814           	          8%	               25.08%	             $15.45	                12%
+Phones	        Technology	       $46,936.74	 $356,702.42	    3,415	         925	                 16%	               13.16%	             $13.74	                18%
+Paper	        Office Supplies        $36,824.10	 $84,786.16	    5,489	       1,454           	          8%	               43.43%	              $6.71	                24%
+Binders	        Office Supplies	       $30,331.66	 $211,141.67	    6,113	       1,561	                 37%	               14.37%	              $4.96	                29%
 
 🔎 INSIGHTS & TRENDS
 1. Top Performers in Profit: 
