@@ -71,16 +71,16 @@ ORDER BY
 /*
 Here's the breakdown of RESULT based on the QUERY above:
 
-Year	 State	     Total Profit	 Total Sales   Total Quantity	 Total Orders	 Avg. Discount	  Profit Margin %	  Profit per Unit
-2020	New York	   $13.75K	       $64.79K	        746	             194	          6%	         21.22%	             $18.43
-2020	California	   $13.49K	       $95.44K	       1584	             428	          7%	         14.14%	              $8.52
+Year	 State	         Total Profit	     Total Sales   Total Quantity	 Total Orders	   Avg. Discount      Profit Margin %	     Profit per Unit
+2020	New York	   $13.75K	       $64.79K	        746	             194	          6%	          21.22%	        $18.43
+2020	California	   $13.49K	       $95.44K	       1584	             428	          7%	          14.14%	         $8.52
 2020	Washington	    $6.61K	       $29.87K	        351     	      94	          7%	          22.12%	         $18.82
 2021	New York	   $19.28K	       $80.32K	        966	             262	          5%	          24.00%	         $19.96
 2021	California	   $14.58K	       $89.25K	       1519	             403	          7%	          16.34%	          $9.60
 2021	Washington	    $5.33K	       $23.42K	        275	              75	          5%	          22.76%	         $19.38
 2022	California	   $20.11K	      $133.29K	       2029	             535	          8%	          15.09%	          $9.91
 2022	New York	   $16.64K	       $71.82K	       1191	             319	          6%	          23.17%	         $13.97
-2022	Indiana	       $10.39K	       $25.46K	        134	              35	          0%	          40.79%	         $77.50
+2022	Indiana	           $10.39K	       $25.46K	        134	              35	          0%	          40.79%	         $77.50
 2023	California	   $29.65K	      $147.36K	       2673	             674	          7%	          20.12%	         $11.09
 2023	New York	   $24.36K	       $93.92K	       1319      	     352	          5%	          25.93%	         $18.47
 2023	Washington	   $17.26K	       $65.54K	        806	             215	          6%	          26.33%	         $21.41
