@@ -113,23 +113,20 @@ How has the company’s annual sales, profit, and order quantity evolved over ti
 
 ![1  Annual Sales, Profit, and Quantity Performance with Percentage Growth](https://github.com/user-attachments/assets/b876c32d-5388-4368-8a7c-4f2dc00eec18)
 
-![1  Annual Performance with Percentage Growth - To be Use](https://github.com/user-attachments/assets/a0deabd8-9b5a-41b3-aff3-b67332b7a6cd)
-
-
-### **Here's the breakdown of RESULT based on the QUERY above**: 
+ ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![1](https://github.com/user-attachments/assets/6f6f25a3-dbe9-4903-837e-fadb3ca57a29)
 
 ### **🔎 Key Trends & Insights**
 **1.   ✅Positive Trends**:
--	**✔️ Sales Recovery & Growth**: After a dip in 2021 (-2.79%), sales rebounded strongly in 2022 (+29.30%) and continued growing in 2023 (+20.25%).
--	**✔️ Profit Surge**: Profit grew steadily each year, with the most significant jump in 2022 (+32.35%).
--	**✔️ Order Quantity Growth**: Increased every year, peaking in 2023 with a +26.96% boost.
+-	**Sales Recovery & Growth**: After a dip in 2021 (-2.79%), sales rebounded strongly in 2022 (+29.30%) and continued growing in 2023 (+20.25%).
+-	**Profit Surge**: Profit grew steadily each year, with the most significant jump in 2022 (+32.35%).
+-	**Order Quantity Growth**: Increased every year, peaking in 2023 with a +26.96% boost.
 	
 **2.   ⚠️ Potential Concerns**:
--	**🔸 Sales Decline in 2021 (-2.79%)**: The dip in revenue indicates external challenges or strategy misalignment.
--	**🔸 Slower Profit Growth in 2023 (14.05% vs. 32.35% in 2022)**: Growth is positive but decelerating, which may suggest increasing costs or competitive pricing pressures.
--	**🔸 Order Growth is greater than Profit Growth**: The number of units sold is growing faster than profit in 2023, signalling possible margin compression or pricing inefficiencies.
+-	**Sales Decline in 2021 (-2.79%)**: The dip in revenue indicates external challenges or strategy misalignment.
+-	**Slower Profit Growth in 2023 (14.05% vs. 32.35% in 2022)**: Growth is positive but decelerating, which may suggest increasing costs or competitive pricing pressures.
+-	**Order Growth is greater than Profit Growth**: The number of units sold is growing faster than profit in 2023, signalling possible margin compression or pricing inefficiencies.
 
 ### 🎯**Strategic Recommendations**
 **1. Enhance Pricing Strategy**:
@@ -174,14 +171,13 @@ How do monthly sales, profit, and order volumes fluctuate over time, and what tr
 
 ![2  Monthly Sales   Profit Trends](https://github.com/user-attachments/assets/3b3d70d0-800c-4909-82f5-dac7be2fccd5)
 
-![2a  Monthly Sales   Profit Trends](https://github.com/user-attachments/assets/83174601-a9ca-4fe4-a987-f1d6959900e7)
-
-![2b  Monthly Profit Trends](https://github.com/user-attachments/assets/5458988a-bc30-40df-a73a-1f4c46ddd11c)
-
-
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![2](https://github.com/user-attachments/assets/31e198a1-9da6-438a-8bd2-26c3d4e33d80)
+
+![2a  Monthly Sales   Profit Trends](https://github.com/user-attachments/assets/83174601-a9ca-4fe4-a987-f1d6959900e7)
+
+![2b  Monthly Profit Trends](https://github.com/user-attachments/assets/5458988a-bc30-40df-a73a-1f4c46ddd11c)
 
 ### **🔎 Key Trends & Insights**
 **1. Strongest Months**: September – December 
@@ -246,16 +242,15 @@ Which customers across different states have been the top three contributors to 
 -	Include key metrics such as profit, sales, order frequency, average discount (in %), and profit margin (in %) for each top customer.
 -	Provide data-driven recommendations to refine customer engagement strategies and maximize revenue.
 
-![3  The Top 3 Most Profitable Customers per Year](https://github.com/user-attachments/assets/5d141a5a-83ce-48b4-8a81-e2628c1bf1b2)
-
-![3a  The Top 3 Most Profitable Customers per Year - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/3da54ada-bd34-4849-b2d7-50ab62b5f7e4)
-
-![3b  The Top 3 Most Profitable Customers per Year](https://github.com/user-attachments/assets/39497f7c-93e3-4fbf-a128-2330efed7ce1)
-
+![3  The Top 3 Most Profitable Customers per Year](https://github.com/user-attachments/assets/b64d529e-7cd2-4783-940b-cb2a6aa54493)
 
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![3](https://github.com/user-attachments/assets/0d07ed5c-7753-4a93-86a4-c281895f9931)
+
+![3a  The Top 3 Most Profitable Customers per Year - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/991daa2b-bc7f-4815-9ec1-b7d4df1c3d46)
+
+![3b  The Top 3 Most Profitable Customers per Year](https://github.com/user-attachments/assets/9258bb69-fff7-42e3-8b25-3c975b08328f)
 
 ### **🔎 Key Trends & Insights**
 **1.  Consistently High Performers in Certain States**:
@@ -322,14 +317,13 @@ Which three products across different categories consistently generate the highe
 
 ![4  The Top 3 Most Profitable Products per Year](https://github.com/user-attachments/assets/d63f4dd3-eb15-48df-aa75-a9203c77ded2)
 
-![4a  The Top 3 Most Profitable Products per Year - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/db86b7e2-a8bf-4d3d-a51a-cd226dd35a99)
-
-![4b  The Top 3 Most Profitable Products per Year](https://github.com/user-attachments/assets/4d8c9660-c11d-44ed-902b-72f4d5f695f5)
-
-
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![4](https://github.com/user-attachments/assets/c2266795-8315-4fdc-8828-536094c76279)
+
+![4a  The Top 3 Most Profitable Products per Year - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/e35c238b-a911-4040-b518-0e8afbeb22a5)
+
+![4b  The Top 3 Most Profitable Products per Year](https://github.com/user-attachments/assets/1ffb9d13-c8e7-489b-94c6-9dc8d824a50c)
 
 ### **🔎 Key Trends & Insights**
 **1.  Technology Products Drive Profitability**:
@@ -400,14 +394,13 @@ Which three states consistently generate the highest profits year over year, and
 
 ![5  The Top 3 Most Profitable States per Year](https://github.com/user-attachments/assets/ab8aefeb-93b9-443d-a836-d430ca0079ad)
 
-![5a  The Top 3 Most Profitable States per Year - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/76dadd9e-59bd-4ce1-a12f-078895ca91f7)
-
-![5b  The Top 3 Most Profitable States per Year](https://github.com/user-attachments/assets/17386511-4648-4bee-a118-86a7e6f4cdc9)
-
-
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![5](https://github.com/user-attachments/assets/83a34c50-465d-4639-9ee4-b5e9885ea7ec)
+
+![5a  The Top 3 Most Profitable States per Year - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/7228203e-7a31-4459-bd51-dfdb3bd55aab)
+
+![5b  The Top 3 Most Profitable States per Year](https://github.com/user-attachments/assets/dd3530af-9d0b-4b1d-b8a6-e94f28a2aa47)
 
 ### **🔎 Key Trends & Insights**
 **1.  Consistently High-Performing States**:
@@ -470,14 +463,13 @@ Who are the top 20 customers generating the most profit across different states,
 
 ![6  Top 20 Most Profitable Customers](https://github.com/user-attachments/assets/158aeda7-f212-47a8-b2f8-490bfd525fa4)
 
-![6a  Top 20 Most Profitable Customers - Showcasing Profitability   Sales](https://github.com/user-attachments/assets/8fe6c8d7-f1ee-41b4-a912-57bbebe67f22)
-
-![6b  Top 20 Most Profitable Customers](https://github.com/user-attachments/assets/a74c0f90-3a85-48e6-be84-f878880b68d1)
-
-
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![6](https://github.com/user-attachments/assets/20b20f33-441c-49ab-bec6-fb7a731447e6)
+
+![6a  Top 20 Most Profitable Customers - Showcasing Profitability   Sales](https://github.com/user-attachments/assets/de80254c-1f64-4f9f-b4d7-401d94cc1c96)
+
+![6b  Top 20 Most Profitable Customers](https://github.com/user-attachments/assets/a74c0f90-3a85-48e6-be84-f878880b68d1)
 
 ### **🔎 Key Trends & Insights**
 **1.  High-Value Customers Driving Profitability**:
@@ -546,14 +538,13 @@ Which 20 products are generating the highest profit across different categories,
 
 ![7   Top 20 Most Profitable Products](https://github.com/user-attachments/assets/ae1335a8-1207-49e6-a7ec-ebf0bed14c51)
 
-![7a  Top 20 Most Profitable Products - Showcasing Profitability   Sales ](https://github.com/user-attachments/assets/26b89cbc-b126-43c8-a909-bde6391c84c8)
-
-![7b  Top 20 Most Profitable Products](https://github.com/user-attachments/assets/3a603761-3a16-4b70-98b4-cf6577b36e66)
-
-
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![7](https://github.com/user-attachments/assets/3648342d-da9d-46a0-b65f-0e620a9f29ee)
+
+![7a  Top 20 Most Profitable Products - Showcasing Profitability   Sales ](https://github.com/user-attachments/assets/7ad41078-9c28-4575-b888-43a69804ad42)
+
+![7b  Top 20 Most Profitable Products](https://github.com/user-attachments/assets/3a603761-3a16-4b70-98b4-cf6577b36e66)
 
 ### **🔎 Key Trends & Insights**
 **1.  High-Profit Leaders**: 
@@ -616,14 +607,13 @@ Which 20 cities generate the highest profit across different states, and how can
 
 ![8  Top 20 Most Profitable Cities](https://github.com/user-attachments/assets/83348eb2-ce15-44e1-bcb5-83a98b2b8595)
 
-![8a  Top 20 Most Profitable Cities - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/9816b0cf-6957-4489-9054-8384e0d891e9)
-
-![8b  Top 20 Most Profitable Cities ](https://github.com/user-attachments/assets/eaec405b-a3f4-4555-ad0e-3a1d2b408d51)
-
-
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![8](https://github.com/user-attachments/assets/7e74eff1-b8af-407e-ade6-b42cdcdcb4bc)
+
+![8a  Top 20 Most Profitable Cities - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/a5d2b367-5116-4f39-ad10-da29370068e4)
+
+![8b  Top 20 Most Profitable Cities ](https://github.com/user-attachments/assets/eaec405b-a3f4-4555-ad0e-3a1d2b408d51)
 
 ### **🔎 Key Trends & Insights**
 **1.  Top Profitable Cities**:
@@ -690,14 +680,13 @@ Which states contribute the most to our profitability, and how can we focus on t
 
 ![9](https://github.com/user-attachments/assets/bf627f9d-1233-4b80-9cb7-6afa92868a62)
 
-![9a  Top 30% Most Profitable States - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/5f179bb0-1ebe-41bb-bbf6-4c92a137ab45)
-
-![9b  Top 30% Most Profitable States](https://github.com/user-attachments/assets/d4eeec0c-ccf9-4525-a06d-05860693d61a)
-
-
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![9](https://github.com/user-attachments/assets/3cfff934-6362-4e57-b2ef-7d938d36fe23)
+
+![9a  Top 30% Most Profitable States - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/1e0cc79d-b2fd-4366-b3af-09503d216d0c)
+
+![9b  Top 30% Most Profitable States](https://github.com/user-attachments/assets/8747adae-e63f-4fd5-94f5-306598814e3c)
 
 ### **🔎 Key Trends & Insights**
 **1.  Top 5 Most Profitable States (Top 30%)**:
@@ -759,14 +748,13 @@ Which product subcategories across different categories contribute the most to o
 
 ![9](https://github.com/user-attachments/assets/de83b01e-563f-407e-acac-02c135abf981)
 
-![10a  Top 30% Most Profitable Sub-Categories - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/791980e1-3297-4703-a44d-e08d7333d743)
-
-![10b  Top 30% Most Profitable Sub-Categories](https://github.com/user-attachments/assets/bc09ccae-3bb9-4602-95fa-45ee82d05315)
-
-
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![10](https://github.com/user-attachments/assets/7c16a184-6c1b-49a7-a74e-45686396730f)
+
+![10a  Top 30% Most Profitable Sub-Categories - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/55f88d4c-0ce6-43f6-ac06-907afcb4293d)
+
+![10b  Top 30% Most Profitable Sub-Categories](https://github.com/user-attachments/assets/0b924081-8f28-4936-9166-11e0f9b46a18)
 
 ### **🔎 Key Trends & Insights**
 **1.   Top Performers in Profit**: 
