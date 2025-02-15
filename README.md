@@ -17,31 +17,51 @@ This project takes a **deep dive into a company’s financial health** using **S
 
 🔍 SQL queries? Check them out here: [Project_sql_folder](https://github.com/olumidebalogun1/Data-Driven-Strategies-for-Growth-with-SQL-Analytics/tree/main/4.%20Project_sql)
 
-## **🏢 BACKGROUND**
-A company experiencing **steady revenue and profit growth** wants to dig deeper—are they truly thriving, or is the momentum slowing down? Leadership seeks to move beyond surface-level financial reports to **understand key performance trends, identify growth drivers, and detect potential red flags** before they impact long-term success.
+## **🏢 Background and Business Challenge**
+A company experiencing steady revenue and profit growth wants to take a deeper dive into its financial health. **Is this growth truly accelerating, or does it mask inefficiencies and untapped opportunities**? Leadership recognizes that surface-level financial reports provide an incomplete picture. **They seek a data-driven approach to analyse key performance trends, uncover hidden growth drivers, and detect potential red flags before they impact long-term success**.
 
-### **The key business questions I intend to answer while uncovering valuable insights include:**
-1.  How has the company’s annual sales, profit, and order quantity evolved over time, and what trends indicate potential growth or decline?
+Despite positive financial indicators, the company faces a **multi-layered performance puzzle**: 
+- Are annual and monthly trends signalling **sustained success**, or are fluctuations hinting at vulnerabilities?
+- Are high-revenue customers and top-selling products contributing effectively to overall **profitability**?
+- Are certain states and cities **outperforming others**, and if so, how can marketing and resource allocation be optimized accordingly?
 
-2.  How do monthly sales, profit, and order volumes fluctuate over time, and what trends can we identify to optimize business performance?
+These critical questions go beyond conventional financial analysis; they require **in-depth analysis, strategic insights, and data-driven decision-making**. This project aims to uncover the **true drivers of profitability, optimize pricing and inventory strategies, and ensure sustainable long-term growth**.
 
-3.  Which customers across different states have been the top three contributors to our profit each year, and how can we leverage this insight to strengthen customer relationships and drive sales growth?
+### **❓ Key Business Questions**
+To address these challenges, this project will analyze historical sales, profit, and order quantity data, offering insights that empower stakeholders to make informed decisions. Key business questions include:
 
-4.  Which three products across different categories consistently generate the highest profit each year, and how can we optimize our product strategies, pricing, and inventory management to maximize their potential?
+1.	**Trend Analysis**: How have the company’s annual sales, profit, and order quantities evolved over time? Are there emerging trends that indicate potential growth or decline?
 
-5.  Which three states consistently generate the highest profits year over year, and how can we focus our resources and marketing efforts on these high-performing regions for sustainable growth?
+2.	**Monthly Performance**: How do monthly sales, profit, and order volumes fluctuate? What patterns can be leveraged to optimize business performance and mitigate seasonal dips?
 
-6.  Who are the top 20 customers generating the most profit across different states, and how can we tailor our strategies to further increase profitability with these high-value customers?
+3.	**Customer Profitability**: Which customers across different states have been the top three contributors to profit each year? How can this insight be used to strengthen customer relationships and drive sales growth?
 
-7.  Which 20 products are generating the highest profit across different categories, and how can we leverage this data to optimize product offerings, pricing strategies, and inventory management for maximum profitability?
+4.	**Product Profitability**: Which three products across different categories consistently generate the highest profit each year? How can product strategies, pricing, and inventory management be optimized for maximum profitability?
 
-8.  Which 20 cities generate the highest profit across different states, and how can we use this insight to prioritize high-impact regions for optimizing sales strategies, discounts, and order management?
+5.	**Regional Performance**: Which three states consistently yield the highest profits year over year? How can the company focus its resources and marketing efforts on these high-performing regions for sustainable growth?
 
-9.  Which states contribute the most to our profitability, and how can we focus on the top 30% to maximize sales, orders, and resource allocation?
+6.	**Top Customers**: Who are the top 20 customers generating the most profit across different states? How can tailored strategies further increase profitability with these high-value customers?
 
-10.  Which product subcategories across different categories contribute the most to our profitability, and how can we focus on the top 30% to optimize sales and resource allocation?
+7.	**Top Products**: Which 20 products generate the highest profit across different categories? How can this data be leveraged to optimize product offerings, pricing strategies, and inventory management?
 
-Through data exploration, visualization, and actionable insights, this project empowers stakeholders with a clear, data-driven roadmap to refine their strategies, optimize resource allocation, and maximize profitability.
+8.	**High-Impact Cities**: Which 20 cities generate the highest profit across different states? How can insights from this analysis guide sales strategies, discount structures, and order management?
+
+9.	**State-Level Profitability**: Which states contribute the most to overall profitability? How can the company focus on the top 30% of these states to maximize sales, orders, and resource allocation?
+
+10.	**Product Subcategories**: Which product subcategories contribute the most to overall profitability? How can the company optimize its focus on the top 30% to improve sales and resource allocation?
+
+### **Data-Driven Roadmap for Business Optimization**
+By leveraging data exploration, visualization, and predictive insights, this project will provide a clear, actionable roadmap for refining business strategies. Stakeholders will gain deep visibility into performance trends, enabling them to:
+
+-  **Identify and reinforce key revenue and profit drivers**.
+-  **Detect early warning signs of slowing growth or inefficiencies**.
+-  **Optimize pricing, inventory, and marketing strategies based on profitability trends**.
+-  **Allocate resources effectively to high-performing states, cities, and customer segments**.
+-  **Enhance customer relationship management to drive repeat sales and customer retention**.
+-  **Streamline product offerings to focus on high-margin, high-demand products**.
+
+Through a **data-driven approach**, this analysis will not only validate the company’s current growth trajectory but also equip leadership with **the insights needed to sustain and accelerate long-term profitability**.
+
 
 ## **🛠 TOOLS I USED**
 My analysis was powered by a suite of tools and techniques, including:
@@ -55,36 +75,36 @@ My analysis was powered by a suite of tools and techniques, including:
 -	I gathered and integrated relevant data tables to establish a strong foundation for in-depth analysis.
 
 **🛠️ Data Preparation**:
--	I cleaned, standardized, and transformed raw data into a structured, high-quality dataset to ensure accuracy and consistency.
+-	Cleaned, standardized, and transformed raw data into a structured, high-quality dataset to ensure accuracy and consistency.
 
 **🧩 Data Enhancement**:
--	I engineered calculated variables and key metrics to enrich the dataset, enabling deeper and more meaningful analysis.
+-	Engineered calculated variables and key metrics to enrich the dataset, enabling deeper and more meaningful analysis.
 
 **🤖 Advanced SQL Analysis**:
--	I leveraged complex SQL queries to uncover key performance drivers, identify patterns, and extract actionable insights.
+-	Leveraged complex SQL queries to uncover key performance drivers, identify patterns, and extract actionable insights.
 
-By following this structured approach, I ensured data clarity, tackled technical challenges effectively, and transformed raw information into valuable, data-driven insights for informed decision-making.
+By following this structured approach, I ensured **data clarity, tackled technical challenges effectively, and transformed raw information into valuable, data-driven insights for informed decision-making**.
 
 
 ## **📊 THE ANALYSIS 1 - 🧹DATA CLEANING & FORMATTING**
-Raw data is often messy and requires refinement before analysis. Proper data cleaning ensures accuracy, reliability, and efficiency, leading to better insights and informed decision-making. Below are the steps I took to prepare the dataset:
+Raw data is often **messy and requires refinement** before analysis. **Proper data cleaning ensures accuracy, reliability, and efficiency, leading to better insights and informed decision-making**. Below are the steps I took to prepare the dataset:
 
-**1️  Removing Special Characters**:
+**1.  Removing Special Characters**:
 -	 Eliminated special characters from text fields to ensure data consistency.
 
-**2️  Standardizing Formats**:
+**2.  Standardizing Formats**:
 -	Ensured consistency in date formats.
 -	Formatted numerical values correctly.
 
-**3️  Removing Duplicates & Outliers**:
+**3.  Removing Duplicates & Outliers**:
 -	Identified and removed duplicate records to prevent skewed analysis.
 -	Used statistical methods to detect and handle outliers in the dataset.
 
-**4️  Handling Missing Values**:
+**4.  Handling Missing Values**:
 -	Replaced blank fields with NULL values for proper handling.
 -	Checked for null values and decided on appropriate imputation or removal
 
-**5️  Removing Unwanted Columns**:
+**5.  Removing Unwanted Columns**:
 -	Dropped irrelevant or redundant columns that do not contribute to the analysis
 
 🔍 SQL queries? Check them out here: [Clean and Format_sql](https://github.com/olumidebalogun1/Data-Driven-Strategies-for-Growth-with-SQL-Analytics/tree/main/3.%20Clean%20and%20Format_sql)
@@ -92,17 +112,16 @@ Raw data is often messy and requires refinement before analysis. Proper data cle
 
 ## **📈 THE ANALYSIS 2**
 
-### **1.  ANNUAL SALES, PROFIT, AND QUANTITY PERFORMANCE WITH PERCENTAGE GROWTH**
-**I. PROJECT OVERVIEW** 
+## **1.  Annual Sales, Profit, and Quantity Performance with Percentage Growth**
 
+### **I. Project Overview**
 **💡 Business Challenge**:
 The company wants to assess its financial health and long-term growth trajectory. While sales and profits may be increasing, leadership seeks deeper insights into whether this growth is accelerating, stagnating, or declining.
 
 **🎯 Project Goal**:
 This project aims to analyze year-over-year (YoY) trends in sales, profit, and order quantity to identify potential growth opportunities and warning signs of decline, thereby helping the business refine pricing strategies, optimize sales efforts, and improve operational efficiency for sustained profitability.
 
-**II. KEY BUSINESS QUESTION** 
-
+### **II. Key Business Question** 
 **🔍 Business Question**:
 How has the company’s annual sales, profit, and order quantity evolved over time, and what trends indicate potential growth or decline?
 
@@ -150,17 +169,16 @@ How has the company’s annual sales, profit, and order quantity evolved over ti
 -	Conduct **market research** to anticipate shifts in demand and competitor strategies.
 
 
-### **2.  MONTHLY SALES AND PROFIT TRENDS**
-**I. PROJECT OVERVIEW** 
+## **2.  Monthly Sales and Profit Trends**
 
+### **I. Project Overview**      
 **💡 Business Challenge**:
 The company experiences fluctuations in sales and profitability without a clear understanding of trends. While some months have strong sales, profit margins don’t always align. Management seeks to identify seasonal patterns, demand fluctuations, and inefficiencies to improve revenue forecasting, optimize promotions, and refine pricing strategies.
 
 **🎯 Project Goal**:
 This project aims to analyse monthly sales, profit, and order volume trends to uncover patterns that can guide marketing optimization, demand forecasting, and strategic decision-making for sustainable revenue growth.
 
-**II. KEY BUSINESS QUESTION** 
-
+### **II. Key Business Question** 
 **🔍 Business Question**:
 How do monthly sales, profit, and order volumes fluctuate over time, and what trends can we identify to optimize business performance?
 
@@ -174,6 +192,8 @@ How do monthly sales, profit, and order volumes fluctuate over time, and what tr
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![2](https://github.com/user-attachments/assets/31e198a1-9da6-438a-8bd2-26c3d4e33d80)
+
+### **📊 Query Result Visualizations**
 
 ![2a  Monthly Sales   Profit Trends](https://github.com/user-attachments/assets/83174601-a9ca-4fe4-a987-f1d6959900e7)
 
@@ -223,17 +243,16 @@ How do monthly sales, profit, and order volumes fluctuate over time, and what tr
 -	**Personalized email marketing & abandoned cart reminders** to capture lost sales.
 
 
-### **3.  THE TOP 3 MOST PROFITABLE CUSTOMERS PER YEAR**
-**I. PROJECT OVERVIEW** 
+## **3.  The Top 3 Most Profitable Customers Per Year**
 
+### **I. Project Overview**    
 **💡 Business Challenge**:
 The business has observed fluctuations in profitability and aims to identify the customers driving the highest profits each year. With a large customer base, understanding which customers consistently contribute the most profit will enable the company to develop targeted loyalty programs, personalized marketing campaigns, and optimize customer engagement.
 
 **🎯 Project Goal**:
 This project aims to identifying the top 3 most profitable customers each year and analysing their sales and order metrics. The insights derived will help the business nurture relationships, refine sales strategies, and implement incentives to maximize profitability and drive long-term growth.
 
-**II. KEY BUSINESS QUESTION** 
-
+### **II. Key Business Question** 
 **🔍 Business Question**:
 Which customers across different states have been the top three contributors to our profit each year, and how can we leverage this insight to strengthen customer relationships and drive sales growth?
 
@@ -247,6 +266,8 @@ Which customers across different states have been the top three contributors to 
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![3](https://github.com/user-attachments/assets/0d07ed5c-7753-4a93-86a4-c281895f9931)
+
+### **📊 Query Result Visualizations**
 
 ![3a  The Top 3 Most Profitable Customers per Year - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/991daa2b-bc7f-4815-9ec1-b7d4df1c3d46)
 
@@ -296,17 +317,16 @@ Which customers across different states have been the top three contributors to 
 -	**Segment customers** by spending, frequency, and loyalty to better tailor promotional campaigns and pricing models.
  
 
-### **4.  THE TOP 3 MOST PROFITABLE PRODUCTS PER YEAR**
-**I. PROJECT OVERVIEW** 
+## **4.  The Top 3 Most Profitable Products Per Year**
 
+### **I. Project Overview**    
 **💡 Business Challenge**:
 The company offers a diverse range of products but lacks a structured approach to consistently identify top-performing products based on profitability. Some products generate higher profits than others, but without data-driven insights, resource allocation, pricing, and inventory decisions are not optimized.
 
 **🎯 Project Goal**:
 This project aims to identifying the top 3 most profitable products each year by analysing their sales, quantity, and order metrics. The insights derived will help the company refine pricing strategies, optimize inventory, and enhance marketing efforts to maximize profitability and sustain growth.
 
-**II. KEY BUSINESS QUESTION** 
-
+### **II. Key Business Question**      
 **🔍 Business Question**:
 Which three products across different categories consistently generate the highest profit each year, and how can we optimize our product strategies, pricing, and inventory management to maximize their potential?
 
@@ -320,6 +340,8 @@ Which three products across different categories consistently generate the highe
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![4](https://github.com/user-attachments/assets/c2266795-8315-4fdc-8828-536094c76279)
+
+ ### **📊 Query Result Visualizations** 
 
 ![4a  The Top 3 Most Profitable Products per Year - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/e35c238b-a911-4040-b518-0e8afbeb22a5)
 
@@ -373,17 +395,16 @@ Which three products across different categories consistently generate the highe
 -	Reduce slow-moving, low-profit products, and **invest more in high-turnover, high-profit products**.
 
 
-### **5.  THE TOP 3 MOST PROFITABLE STATES PER YEAR**
-**I. PROJECT OVERVIEW** 
+## **5.  The Top 3 Most Profitable States Per Year**
 
+### **I. Project Overview**   
 **💡 Business Challenge**:
 The company has observed significant performance variations across different states but lacks a structured approach to identifying top-performing regions. Despite evenly distributed resources, there is no clear visibility into which states consistently drive the highest profits.
 
 **🎯 Project Goal**:
 This project aims to identifying the top 3 most profitable states each year, enabling the business to optimize regional strategies, adjust inventory, fine-tune pricing and improve marketing efforts to maximize profitability.
 
-**II. KEY BUSINESS QUESTION** 
-
+ ### **II. Key Business Question**      
 **🔍 Business Question**:
 Which three states consistently generate the highest profits year over year, and how can we focus our resources and marketing efforts on these high-performing regions for sustainable growth?
 
@@ -397,6 +418,8 @@ Which three states consistently generate the highest profits year over year, and
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![5](https://github.com/user-attachments/assets/83a34c50-465d-4639-9ee4-b5e9885ea7ec)
+
+### **📊 Query Result Visualizations**
 
 ![5a  The Top 3 Most Profitable States per Year - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/7228203e-7a31-4459-bd51-dfdb3bd55aab)
 
@@ -424,8 +447,6 @@ Which three states consistently generate the highest profits year over year, and
 -	**New York keeps discounts low (5-6%)** while increasing profitability.
 -	**California applies higher discounts (7-8%)** but still maintains the highest sales volume.
 
-
-
 ### 🎯**Strategic Recommendations**
 **1.  Prioritize New York & California**:
 -	Increase marketing efforts and inventory allocation in these states.
@@ -442,17 +463,16 @@ Which three states consistently generate the highest profits year over year, and
 -	Focus on efficient distribution to reduce costs in high-margin states.
 
 
-### **6.  TOP 20 MOST PROFITABLE CUSTOMERS**
-**I. PROJECT OVERVIEW**
+## **6.  Top 20 Most Profitable Customers**
 
+### **I. Project Overview**    
 **💡 Business Challenge**:
 Customer profitability varies significantly, with some customers contributing much higher profits than others. The business needs a structured approach to identifying high-value customers across different states to optimize sales strategies, enhance loyalty programs, and improve marketing efforts.
 
 **🎯 Project Goal**:
 This project aims to identify the top 20 most profitable customers across states using key metrics such as profit, sales, and order frequency. The insights derived will help the company refine customer engagement strategies, increase retention, and drive sustainable profitability.
 
-**II. KEY BUSINESS QUESTION** 
-
+### **II. Key Business Question**      
 **🔍 Business Question**:
 Who are the top 20 customers generating the most profit across different states, and how can we tailor our strategies to further increase profitability with these high-value customers?
 
@@ -466,6 +486,8 @@ Who are the top 20 customers generating the most profit across different states,
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![6](https://github.com/user-attachments/assets/20b20f33-441c-49ab-bec6-fb7a731447e6)
+
+### **📊 Query Result Visualizations**
 
 ![6a  Top 20 Most Profitable Customers - Showcasing Profitability   Sales](https://github.com/user-attachments/assets/de80254c-1f64-4f9f-b4d7-401d94cc1c96)
 
@@ -517,17 +539,16 @@ Who are the top 20 customers generating the most profit across different states,
 -	Target **repeat buyers differently from one-time big spenders** to increase engagement.
 
 
-### **7.   TOP 20 MOST PROFITABLE PRODUCTS**
-**I. PROJECT OVERVIEW** 
+## **7.   Top 20 Most Profitable Products**
 
+### **I. Project Overview**    
 **💡 Business Challenge**:
 The company offers a wide range of products, but some significantly outperform others in terms of profitability. To streamline the product portfolio and boost overall profitability, the business needs a structured, data-driven approach to identifying and prioritizing high-performing products.
 
 **🎯 Project Goal**:
 This project aims to identify the top 20 most profitable products using key metrics such as profit, sales, quantity sold, and order volume. The insights derived will help the company refine pricing strategies, optimize inventory management and enhance product offerings for sustained growth.
 
-**II. KEY BUSINESS QUESTION** 
-
+### **II. Key Business Question**      
 **🔍 Business Question**:
 Which 20 products are generating the highest profit across different categories, and how can we leverage this data to optimize product offerings, pricing strategies, and inventory management for maximum profitability?
 
@@ -541,6 +562,8 @@ Which 20 products are generating the highest profit across different categories,
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![7](https://github.com/user-attachments/assets/3648342d-da9d-46a0-b65f-0e620a9f29ee)
+
+### **📊 Query Result Visualizations**
 
 ![7a  Top 20 Most Profitable Products - Showcasing Profitability   Sales ](https://github.com/user-attachments/assets/7ad41078-9c28-4575-b888-43a69804ad42)
 
@@ -586,17 +609,16 @@ Which 20 products are generating the highest profit across different categories,
 -	Reallocate inventory & marketing spend to high-margin products
 
 
-### **8.  TOP 20 MOST PROFITABLE CITIES**
-**I. PROJECT OVERVIEW** 
+## **8.  Top 20 Most Profitable Cities**
 
+### **I. Project Overview**     
 **💡 Business Challenge**:
 The company is looking to optimize its performance across different cities. Despite having operations in many areas, some cities significantly outperform others in terms of profitability, sales volume, and order frequency.
 
 **🎯 Project Goal**:
 This project aims to identify the top 20 most profitable cities based on sales, profit, and order frequency. The insights derived will help the company to optimize sales strategies, discount offerings, and regional operations for maximum profitability.
 
-**II. KEY BUSINESS QUESTION** 
-
+### **II. Key Business Question**     
 **🔍 Business Question**:
 Which 20 cities generate the highest profit across different states, and how can we use this insight to prioritize high-impact regions for optimizing sales strategies, discounts, and order management?
 
@@ -611,6 +633,8 @@ Which 20 cities generate the highest profit across different states, and how can
 
 ![8](https://github.com/user-attachments/assets/7e74eff1-b8af-407e-ade6-b42cdcdcb4bc)
 
+ ### **📊 Query Result Visualizations**
+ 
 ![8a  Top 20 Most Profitable Cities - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/a5d2b367-5116-4f39-ad10-da29370068e4)
 
 ![8b  Top 20 Most Profitable Cities ](https://github.com/user-attachments/assets/eaec405b-a3f4-4555-ad0e-3a1d2b408d51)
@@ -659,17 +683,16 @@ Which 20 cities generate the highest profit across different states, and how can
 -	**Avoid blanket discounts that dilute profitability**—instead, focus on strategic promotions where high-margin products can be upsold.
 
 
-### **9.   TOP 30% MOST PROFITABLE STATES**
-**I. PROJECT OVERVIEW** 
+## **9.   Top 30% Most Profitable States**
 
+### **I. Project Overview**     
 **💡 Business Challenge**:
 The company operates across multiple states, but profitability varies significantly. Some states outperform others in terms of profit, order volume, and sales, while others lag behind.
 
 **🎯 Project Goal**:
 This project aims to identify the top 30% of the most profitable states based on profit contribution, sales volume, and order frequency. The insights derived will help optimize marketing efforts, resource allocation, and sales strategies to maximize profitability inhigh-performing states while enhancing performance in underperforming regions.
 
-**II. KEY BUSINESS QUESTION** 
-
+### **II. Key Business Question**       
 **🔍 Business Question**:
 Which states contribute the most to our profitability, and how can we focus on the top 30% to maximize sales, orders, and resource allocation?
 
@@ -683,6 +706,8 @@ Which states contribute the most to our profitability, and how can we focus on t
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![9](https://github.com/user-attachments/assets/3cfff934-6362-4e57-b2ef-7d938d36fe23)
+
+### **📊 Query Result Visualizations**
 
 ![9a  Top 30% Most Profitable States - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/1e0cc79d-b2fd-4366-b3af-09503d216d0c)
 
@@ -727,17 +752,16 @@ Which states contribute the most to our profitability, and how can we focus on t
 •	States beyond **Indiana (cumulative >12%) show diminishing returns**, meaning investment should be strategic.
 
 
-### **10.   TOP 30% MOST PROFITABLE SUB-CATEGORIES**
-**I. PROJECT OVERVIEW** 
+## **10.   Top 30% Most Profitable Sub-Categories**
 
+### **I. Project Overview**    
 **💡 Business Challenge**:
 The company is experiencing profitability challenges due to fluctuating sales and high market competition. Despite offering a broad range of products, only a subset of sub-categories significantly contributes to overall profitability, while others underperform or fail to generate enough revenue.
 
 **🎯 Project Goal**:
 This project aims to identify the top 30% most profitable product sub-categories based on profit contribution, sales volume, and margin. The insights derived will help optimize resource allocation, product offerings, and sales strategies for maximum profitability. Additionally, it will improve inventory planning, marketing focus, and overall business efficiency by prioritizing high-performing sub-categories.
 
-**II. KEY BUSINESS QUESTION** 
-
+### **II. Key Business Question**       
 **🔍 Business Question**:
 Which product subcategories across different categories contribute the most to our profitability, and how can we focus on the top 30% to optimize sales and resource allocation?
 
@@ -751,6 +775,8 @@ Which product subcategories across different categories contribute the most to o
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 
 ![10](https://github.com/user-attachments/assets/7c16a184-6c1b-49a7-a74e-45686396730f)
+
+### **📊 Query Result Visualizations**
 
 ![10a  Top 30% Most Profitable Sub-Categories - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/55f88d4c-0ce6-43f6-ac06-907afcb4293d)
 
@@ -795,7 +821,7 @@ Which product subcategories across different categories contribute the most to o
 -	**Target campaigns that highlight the high value and quality of Copiers and Accessories**, which can increase customer interest and boost profitability.
 
 
-### **OVERALL ESTIMATED BUSINESS IMPACT**
+## **KEY EXPECTED RESULTS AND ESTIMATED BUSINESS IMPACT**
 **1.   Revenue Growth**: **12-20**% increase
 
 **2.   Profit Margin Improvement**: **5-15**% uplift
@@ -809,6 +835,9 @@ Which product subcategories across different categories contribute the most to o
 **6.   Regional Expansion Benefits**: **Up to 10**% increase in state-level sales
 
 
+## **📝 FINAL THOUGHTS**
+This project is more than just an analysis. it’s a **roadmap to smarter business decisions, higher profitability, and long-term success**.
+
 ## **🎓 WHAT I LEARNED**
 -	**SQL Query Optimization**: Efficient ways to extract and analyze business data.
 -	**Pattern Recognition**: Identifying key trends that influence profitability.
@@ -821,7 +850,7 @@ This project demonstrates the power of data analytics in guiding business decisi
 ## **💡 CLOSING THOUGHT**
 Informed decision-making is the foundation of a successful business. With the right data and analytical approach, companies can achieve sustained growth and stay ahead of the competition.
 
-**🚀 TRANSFORMING DATA INTO DECISIONS!**
+### **Transforming Data into Decisions**!
 Explore, share, and connect as we turn raw data into actionable insights that drive real impact. Let's make data work for you!
 
 ## **🌟 CONNECT WITH ME**
