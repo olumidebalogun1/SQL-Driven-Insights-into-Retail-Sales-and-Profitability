@@ -14,7 +14,7 @@ This project takes a **deep dive into a company’s financial health** using **S
 
 🔍 SQL queries? Check them out here: [Project_sql_folder](https://github.com/olumidebalogun1/Data-Driven-Strategies-for-Growth-with-SQL-Analytics/tree/main/4.%20Project_sql)
 
-## **Background and Business Challenge**
+## **Business Challenge**
 A company experiencing steady revenue and profit growth wants to take a deeper dive into its financial health. **Is this growth truly accelerating, or does it mask inefficiencies and untapped opportunities**? Leadership recognizes that surface-level financial reports provide an incomplete picture. **They seek a data-driven approach to analyse key performance trends, uncover hidden growth drivers, and detect potential red flags before they impact long-term success**.
 
 Despite positive financial indicators, the company faces a **multi-layered performance puzzle**: 
