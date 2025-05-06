@@ -1,7 +1,7 @@
-# **📊 RETAIL SALES & PROFITABILITY INSIGHTS: DATA-DRIVEN STRATEGIES FOR GROWTH WITH SQL ANALYTICS**
+# **SQL-Driven Insights into Retail Sales & Profitability**
 
- ## **INTRODUCTION**
-In today’s fast-moving business world, **data isn’t just numbers—it’s the secret weapon for growth and competitive advantage**. Businesses that master the art of **data-driven decision-making** don’t just survive; they thrive. But growth isn’t just about increasing sales—it’s about knowing where, how, and why it’s happening (or not happening).
+ ## **Overview**
+In today’s fast-moving business world, **data isn’t just numbers, it’s the secret weapon for growth and competitive advantage**. Businesses that master the art of **data-driven decision-making** don’t just survive; they thrive. But growth isn’t just about increasing sales, it’s about knowing where, how, and why it’s happening (or not happening).
 
 If you've ever asked yourself:
 - **Which products bring in the most profit?**
@@ -24,7 +24,7 @@ Despite positive financial indicators, the company faces a **multi-layered perfo
 
 These critical questions go beyond conventional financial analysis; they require **in-depth analysis, strategic insights, and data-driven decision-making**. This project aims to uncover the **true drivers of profitability, optimize pricing and inventory strategies, and ensure sustainable long-term growth**.
 
-### **❓ Key Business Questions**
+## **Key Business Questions**
 To address these challenges, this project will analyze historical sales, profit, and order quantity data, offering insights that empower stakeholders to make informed decisions. Key business questions include:
 
 1.	**Trend Analysis**: How have the company’s annual sales, profit, and order quantities evolved over time? Are there emerging trends that indicate potential growth or decline?
@@ -47,7 +47,7 @@ To address these challenges, this project will analyze historical sales, profit,
 
 10.	**Product Subcategories**: Which product subcategories contribute the most to overall profitability? How can the company optimize its focus on the top 30% to improve sales and resource allocation?
 
-### **Data-Driven Roadmap for Business Optimization**
+## **Data-Driven Roadmap for Business Optimization**
 By leveraging data exploration, visualization, and predictive insights, this project will provide a clear, actionable roadmap for refining business strategies. Stakeholders will gain deep visibility into performance trends, enabling them to:
 
 -  **Identify and reinforce key revenue and profit drivers**.
@@ -60,14 +60,14 @@ By leveraging data exploration, visualization, and predictive insights, this pro
 Through a **data-driven approach**, this analysis will not only validate the company’s current growth trajectory but also equip leadership with **the insights needed to sustain and accelerate long-term profitability**.
 
 
-## **🛠 TOOLS I USED**
+## **Tools I Used**
 My analysis was powered by a suite of tools and techniques, including:
--	**SQL 🖥️** – The powerhouse of my analysis, enabling me to extract, transform, and uncover hidden job market trends.
--	**PostgreSQL 🛢️** – A robust, scalable database management system, ideal for handling complex queries and large datasets with ease.
--	**Excel 📑** – Essential for intuitive data visualization and dynamic dashboard creation, turning numbers into compelling insights.
--	**Git & GitHub 🌐** – Crucial for version control, seamless collaboration, and sharing my SQL scripts and findings with the data community.
+-	**SQL** – The powerhouse of my analysis, enabling me to extract, transform, and uncover hidden job market trends.
+-	**PostgreSQL** – A robust, scalable database management system, ideal for handling complex queries and large datasets with ease.
+-	**Excel** – Essential for intuitive data visualization and dynamic dashboard creation, turning numbers into compelling insights.
+-	**Git & GitHub** – Crucial for version control, seamless collaboration, and sharing my SQL scripts and findings with the data community.
 
-## **APPROACH, ANALYSIS & TECHNICAL CHALLENGES**
+## **Approach, Analysis & Technical challenges**
 **1. Data Collection**:
 -	I gathered and integrated relevant data tables to establish a strong foundation for in-depth analysis.
 
@@ -83,7 +83,10 @@ My analysis was powered by a suite of tools and techniques, including:
 By following this structured approach, I ensured **data clarity, tackled technical challenges effectively, and transformed raw information into valuable, data-driven insights for informed decision-making**.
 
 
-## **📊 THE ANALYSIS 1 - 🧹DATA CLEANING & FORMATTING**
+# **The Analysis 1** 
+
+## **Data Cleaning & Formatting**
+ 
 Raw data is often **messy and requires refinement** before analysis. **Proper data cleaning ensures accuracy, reliability, and efficiency, leading to better insights and informed decision-making**. Below are the steps I took to prepare the dataset:
 
 **1.  Removing Special Characters**:
@@ -107,22 +110,20 @@ Raw data is often **messy and requires refinement** before analysis. **Proper da
 🔍 SQL queries? Check them out here: [Clean and Format_sql](https://github.com/olumidebalogun1/Data-Driven-Strategies-for-Growth-with-SQL-Analytics/tree/main/3.%20Clean%20and%20Format_sql)
 
 
-## **📈 THE ANALYSIS 2**
+# **The Analysis 2**
 
-## **1.  Annual Sales, Profit, and Quantity Performance with Percentage Growth**
+# **1. Trend Analysis**
 
-### **I. Project Overview**
-**💡 Business Challenge**:
+## **How has the company’s annual sales, profit, and order quantity evolved over time, and what trends indicate potential growth or decline**?
+
+### **Question Overview**
+**1. Business Challenge**:
 The company wants to assess its financial health and long-term growth trajectory. While sales and profits may be increasing, leadership seeks deeper insights into whether this growth is accelerating, stagnating, or declining.
 
-**🎯 Project Goal**:
+**2. Objective of the Question**:
 This project aims to analyze year-over-year (YoY) trends in sales, profit, and order quantity to identify potential growth opportunities and warning signs of decline, thereby helping the business refine pricing strategies, optimize sales efforts, and improve operational efficiency for sustained profitability.
 
-### **II. Key Business Question** 
-**🔍 Business Question**:
-How has the company’s annual sales, profit, and order quantity evolved over time, and what trends indicate potential growth or decline?
-
-**🛠 Approach**:
+**3. Analytical Approach**:
 -	Write SQL queries to calculate YoY percentage changes in key business metrics.
 -	Identify high-performing years and warning signs of decline.
 -	Provide data-driven recommendations to sustain business growth.
@@ -131,7 +132,7 @@ How has the company’s annual sales, profit, and order quantity evolved over ti
  ### **Here's the breakdown of RESULT based on the QUERY above**:
 ![1](https://github.com/user-attachments/assets/6f6f25a3-dbe9-4903-837e-fadb3ca57a29)
 
-### **🔎 Key Trends & Insights**
+## **Key Trends & Insights**
 **1.  Positive Trends**:
 -	**Sales Recovery & Growth**: After a dip in 2021 (-2.79%), sales rebounded strongly in 2022 (+29.30%) and continued growing in 2023 (+20.25%).
 -	**Profit Surge**: Profit grew steadily each year, with the most significant jump in 2022 (+32.35%).
@@ -142,7 +143,7 @@ How has the company’s annual sales, profit, and order quantity evolved over ti
 -	**Slower Profit Growth in 2023 (14.05% vs. 32.35% in 2022)**: Growth is positive but decelerating, which may suggest increasing costs or competitive pricing pressures.
 -	**Order Growth is greater than Profit Growth**: The number of units sold is growing faster than profit in 2023, signalling possible margin compression or pricing inefficiencies.
 
-### 🎯**Strategic Recommendations**
+## **Strategic Recommendations**
 **1. Enhance Pricing Strategy**:
 -	**Optimize pricing models** to balance revenue growth and profitability.
 -	**Analyse high-selling but low-profit items** to adjust pricing or improve margins.
@@ -164,20 +165,18 @@ How has the company’s annual sales, profit, and order quantity evolved over ti
 -	Conduct **market research** to anticipate shifts in demand and competitor strategies.
 
 
-## **2.  Monthly Sales and Profit Trends**
+# **2.  Monthly Performance**
 
-### **I. Project Overview**      
-**💡 Business Challenge**:
+## **How do monthly sales, profit, and order volumes fluctuate over time, and what trends can we identify to optimize business performance**?
+
+### **Question Overview**
+**1. Business Challenge**:
 The company experiences fluctuations in sales and profitability without a clear understanding of trends. While some months have strong sales, profit margins don’t always align. Management seeks to identify seasonal patterns, demand fluctuations, and inefficiencies to improve revenue forecasting, optimize promotions, and refine pricing strategies.
 
-**🎯 Project Goal**:
+**2. Objective of the Question**:
 This project aims to analyse monthly sales, profit, and order volume trends to uncover patterns that can guide marketing optimization, demand forecasting, and strategic decision-making for sustainable revenue growth.
 
-### **II. Key Business Question** 
-**🔍 Business Question**:
-How do monthly sales, profit, and order volumes fluctuate over time, and what trends can we identify to optimize business performance?
-
-**🛠 Approach**:
+**3. Analytical Approach**:
 -	Write SQL queries to analyze monthly trends in sales, profit, order volume, and quantity sold.
 -	Identify seasonal patterns and demand fluctuations.
 -	Provide data-driven recommendations to enhance pricing, forecasting, and marketing strategies
@@ -186,13 +185,13 @@ How do monthly sales, profit, and order volumes fluctuate over time, and what tr
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 ![2](https://github.com/user-attachments/assets/31e198a1-9da6-438a-8bd2-26c3d4e33d80)
 
-### **📊 Query Result Visualizations**
+### **Query Result Visualizations**
 
 ![2a  Monthly Sales   Profit Trends](https://github.com/user-attachments/assets/83174601-a9ca-4fe4-a987-f1d6959900e7)
 
 ![2b  Monthly Profit Trends](https://github.com/user-attachments/assets/5458988a-bc30-40df-a73a-1f4c46ddd11c)
 
-### **🔎 Key Trends & Insights**
+## **Key Trends & Insights**
 **1. Strongest Months**: September – December 
 -	**Peak Sales & Profits in Q4 each year (Nov-Dec)**. Likely due to holiday sales, promotions, or seasonal demand.
 -	**September** also shows high order volumes, hinting at early seasonal shopping.
@@ -209,7 +208,7 @@ How do monthly sales, profit, and order volumes fluctuate over time, and what tr
 -	**Order volume increases steadily** year over year **(esp. in Q3-Q4)**.
 -	**2023-09 had the highest orders (459) & quantity (1,660 units)** → indicates growing customer demand.
 
-### 🎯**Strategic Recommendations**
+## **Strategic Recommendations**
 **1. Capitalize on Q4 Demand (Peak Season Strategy)**:
 -	**Ramp up marketing & promotions** from **September – December** to maximize holiday sales.
 -	**Launch pre-holiday discounts** in September to capture early shoppers.
@@ -236,20 +235,18 @@ How do monthly sales, profit, and order volumes fluctuate over time, and what tr
 -	**Personalized email marketing & abandoned cart reminders** to capture lost sales.
 
 
-## **3.  The Top 3 Most Profitable Customers Per Year**
+# **3. Customer Profitability**
 
-### **I. Project Overview**    
-**💡 Business Challenge**:
+## **Which customers across different states have been the top three contributors to our profit each year, and how can we leverage this insight to strengthen customer relationships and drive sales growth**?
+
+### **Question Overview**
+**1. Business Challenge**:
 The business has observed fluctuations in profitability and aims to identify the customers driving the highest profits each year. With a large customer base, understanding which customers consistently contribute the most profit will enable the company to develop targeted loyalty programs, personalized marketing campaigns, and optimize customer engagement.
 
-**🎯 Project Goal**:
+**2. Objective of the Question**:
 This project aims to identifying the top 3 most profitable customers each year and analysing their sales and order metrics. The insights derived will help the business nurture relationships, refine sales strategies, and implement incentives to maximize profitability and drive long-term growth.
 
-### **II. Key Business Question** 
-**🔍 Business Question**:
-Which customers across different states have been the top three contributors to our profit each year, and how can we leverage this insight to strengthen customer relationships and drive sales growth?
-
-**🛠 Approach**:
+**3. Analytical Approach**:
 -	Create SQL queries to identify and prioritize the top-performing customers each year.
 -	Include key metrics such as profit, sales, order frequency, average discount (in %), and profit margin (in %) for each top customer.
 -	Provide data-driven recommendations to refine customer engagement strategies and maximize revenue.
@@ -258,13 +255,13 @@ Which customers across different states have been the top three contributors to 
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 ![3](https://github.com/user-attachments/assets/0d07ed5c-7753-4a93-86a4-c281895f9931)
 
-### **📊 Query Result Visualizations**
+### **Query Result Visualizations**
 
 ![3a  The Top 3 Most Profitable Customers per Year - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/991daa2b-bc7f-4815-9ec1-b7d4df1c3d46)
 
 ![3b  The Top 3 Most Profitable Customers per Year](https://github.com/user-attachments/assets/9258bb69-fff7-42e3-8b25-3c975b08328f)
 
-### **🔎 Key Trends & Insights**
+## **Key Trends & Insights**
 **1.  Consistently High Performers in Certain States**:
 -	**New York has had at least one top-performing customer** every year (Nathan Mautz, Keith Dawkins, Tom Ashbrook), making it a crucial state for business profitability.
 -	**Indiana (Tamara Chand) and Washington (Raymond Buch)** showed **exceptional profits in 2022 and 2023**, respectively, suggesting new high-value customer segments.
@@ -287,7 +284,7 @@ Which customers across different states have been the top three contributors to 
 **6.  Emerging High-Value Customers in Recent Years**:
 -	**Tamara Chand (2022) and Raymond Buch (2023)** had exceptionally **high profits ($8.76K and $6.73K, respectively)**, suggesting that the business should focus on retaining and further engaging these customers.
 
-### 🎯**Strategic Recommendations**
+## **Strategic Recommendations**
 **1.  Nurture Relationships with Top Customers**: 
 -	**Reward loyalty**: Create personalized loyalty programs for top customers like **Sanjit Chand, Tamara Chand, and Raymond Buch**, offering exclusive deals and early access to new products.
 -	Develop **VIP customer support services** for high-profit clients, ensuring they feel valued.
@@ -308,20 +305,18 @@ Which customers across different states have been the top three contributors to 
 -	**Segment customers** by spending, frequency, and loyalty to better tailor promotional campaigns and pricing models.
  
 
-## **4.  The Top 3 Most Profitable Products Per Year**
+# **4. Product Profitability**
 
-### **I. Project Overview**    
-**💡 Business Challenge**:
+## **Which three products across different categories consistently generate the highest profit each year, and how can we optimize our product strategies, pricing, and inventory management to maximize their potential**?  
+
+### **Question Overview**
+**1. Business Challenge**:
 The company offers a diverse range of products but lacks a structured approach to consistently identify top-performing products based on profitability. Some products generate higher profits than others, but without data-driven insights, resource allocation, pricing, and inventory decisions are not optimized.
 
-**🎯 Project Goal**:
+**2. Objective of the Question**:
 This project aims to identifying the top 3 most profitable products each year by analysing their sales, quantity, and order metrics. The insights derived will help the company refine pricing strategies, optimize inventory, and enhance marketing efforts to maximize profitability and sustain growth.
 
-### **II. Key Business Question**      
-**🔍 Business Question**:
-Which three products across different categories consistently generate the highest profit each year, and how can we optimize our product strategies, pricing, and inventory management to maximize their potential?
-
-**🛠 Approach**:
+**3. Analytical Approach**:
 -	Develop SQL queries to analyze year-over-year performance for each product.
 -	Focus on key metrics: profitability, sales, quantity sold, order volume, average discount (in %), and profit margin (in %) for each top product. 
 -	Provide data-driven recommendations to improve pricing, inventory, and marketing strategies for top-performing products.	
@@ -330,13 +325,13 @@ Which three products across different categories consistently generate the highe
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 ![4](https://github.com/user-attachments/assets/c2266795-8315-4fdc-8828-536094c76279)
 
- ### **📊 Query Result Visualizations** 
+ ### **Query Result Visualizations** 
 
 ![4a  The Top 3 Most Profitable Products per Year - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/e35c238b-a911-4040-b518-0e8afbeb22a5)
 
 ![4b  The Top 3 Most Profitable Products per Year](https://github.com/user-attachments/assets/1ffb9d13-c8e7-489b-94c6-9dc8d824a50c)
 
-### **🔎 Key Trends & Insights**
+## **Key Trends & Insights**
 **1.  Technology Products Drive Profitability**:
 -	**Canon imageCLASS 2200 Advanced Copier (2022 & 2023)** consistently tops profitability, showing strong and increasing demand.
 -	Printers and copiers (Canon, HP, Zebra) dominate high-profit products yearly.
@@ -366,7 +361,7 @@ Which three products across different categories consistently generate the highe
 -	**Canon PC1060 (2021) and GBC Ibimaster 500 (2022) had excessive discounts (10-53%)**, leading to reduced profit margins, indicating the need for better discount control.
 
 
-### 🎯**Strategic Recommendations**
+## **Strategic Recommendations**
 **1.  Prioritize High-Profit, High-Demand Products**:
 -	**Canon imageCLASS 2200 Copier** should be a **flagship product**, with **consistent stock, targeted marketing, and upselling opportunities**.
 -	Invest in **high-margin technology products** (e.g., Canon MF7460 and Zebra ZM400 Printers), which deliver **strong profits without discounts**.
@@ -384,20 +379,18 @@ Which three products across different categories consistently generate the highe
 -	Reduce slow-moving, low-profit products, and **invest more in high-turnover, high-profit products**.
 
 
-## **5.  The Top 3 Most Profitable States Per Year**
+# **5.  Regional Performance**
 
-### **I. Project Overview**   
-**💡 Business Challenge**:
+## **Which three states consistently generate the highest profits year over year, and how can we focus our resources and marketing efforts on these high-performing regions for sustainable growth**?
+
+### **Question Overview**
+**1. Business Challenge**:
 The company has observed significant performance variations across different states but lacks a structured approach to identifying top-performing regions. Despite evenly distributed resources, there is no clear visibility into which states consistently drive the highest profits.
 
-**🎯 Project Goal**:
+**2. Objective of the Question**:
 This project aims to identifying the top 3 most profitable states each year, enabling the business to optimize regional strategies, adjust inventory, fine-tune pricing and improve marketing efforts to maximize profitability.
 
- ### **II. Key Business Question**      
-**🔍 Business Question**:
-Which three states consistently generate the highest profits year over year, and how can we focus our resources and marketing efforts on these high-performing regions for sustainable growth?
-
-**🛠 Approach**:
+**3. Analytical Approach**:
 -	Write SQL queries to analyze year-over-year profitability trends by state.
 -	Identify top-performing regions based on sales, profit, order volume , average discount (in %), and profit_margin (in %).
 -	Provide data-driven recommendations to refine marketing, inventory allocation, and regional business strategies.	
@@ -406,13 +399,13 @@ Which three states consistently generate the highest profits year over year, and
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 ![5](https://github.com/user-attachments/assets/83a34c50-465d-4639-9ee4-b5e9885ea7ec)
 
-### **📊 Query Result Visualizations**
+### **Query Result Visualizations**
 
 ![5a  The Top 3 Most Profitable States per Year - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/7228203e-7a31-4459-bd51-dfdb3bd55aab)
 
 ![5b  The Top 3 Most Profitable States per Year](https://github.com/user-attachments/assets/dd3530af-9d0b-4b1d-b8a6-e94f28a2aa47)
 
-### **🔎 Key Trends & Insights**
+## **Key Trends & Insights**
 **1.  Consistently High-Performing States**:
 -	**New York and California** have consistently ranked in the top 2 in profitability every year (2020-2023).
 -	**Washington** also appears frequently but with **slightly lower total profits than New York and California**.
@@ -434,7 +427,7 @@ Which three states consistently generate the highest profits year over year, and
 -	**New York keeps discounts low (5-6%)** while increasing profitability.
 -	**California applies higher discounts (7-8%)** but still maintains the highest sales volume.
 
-### 🎯**Strategic Recommendations**
+## **Strategic Recommendations**
 **1.  Prioritize New York & California**:
 -	Increase marketing efforts and inventory allocation in these states.
 -	Invest in customer engagement & regional partnerships.
@@ -450,20 +443,18 @@ Which three states consistently generate the highest profits year over year, and
 -	Focus on efficient distribution to reduce costs in high-margin states.
 
 
-## **6.  Top 20 Most Profitable Customers**
+# **6. Top Customers**
 
-### **I. Project Overview**    
-**💡 Business Challenge**:
+ ## **Who are the top 20 customers generating the most profit across different states, and how can we tailor our strategies to further increase profitability with these high-value customers**?
+
+ ### **Question Overview**
+**1. Business Challenge**:
 Customer profitability varies significantly, with some customers contributing much higher profits than others. The business needs a structured approach to identifying high-value customers across different states to optimize sales strategies, enhance loyalty programs, and improve marketing efforts.
 
-**🎯 Project Goal**:
+**2. Objective of the Question**:
 This project aims to identify the top 20 most profitable customers across states using key metrics such as profit, sales, and order frequency. The insights derived will help the company refine customer engagement strategies, increase retention, and drive sustainable profitability.
 
-### **II. Key Business Question**      
-**🔍 Business Question**:
-Who are the top 20 customers generating the most profit across different states, and how can we tailor our strategies to further increase profitability with these high-value customers?
-
-**🛠 Approach**:
+**3. Analytical Approach**:
 -	Write SQL queries to analyze profitability trends by customer and state.
 -	Identify top 20 high-value customers based on profit, sales, order frequency, average discount (in %), and profit margin (in %).
 -	Provide data-driven recommendations for targeted marketing, personalized engagement, and loyalty programs.
@@ -472,13 +463,13 @@ Who are the top 20 customers generating the most profit across different states,
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 ![6](https://github.com/user-attachments/assets/20b20f33-441c-49ab-bec6-fb7a731447e6)
 
-### **📊 Query Result Visualizations**
+### **Query Result Visualizations**
 
 ![6a  Top 20 Most Profitable Customers - Showcasing Profitability   Sales](https://github.com/user-attachments/assets/de80254c-1f64-4f9f-b4d7-401d94cc1c96)
 
 ![6b  Top 20 Most Profitable Customers](https://github.com/user-attachments/assets/a74c0f90-3a85-48e6-be84-f878880b68d1)
 
-### **🔎 Key Trends & Insights**
+## **Key Trends & Insights**
 **1.  High-Value Customers Driving Profitability**:
 -	**Tamara Chand (Indiana, $8.76K profit, 47.79% margin) and Raymond Buch (Washington, $6.73K profit, 47.92% margin)** are the top contributors, indicating strong purchasing power.
 -	**Hunter Lopez (Delaware, $5.04K profit, 48% margin, $1680 profit/unit)** stands out with the highest profit per unit, suggesting premium product purchases.
@@ -499,7 +490,7 @@ Who are the top 20 customers generating the most profit across different states,
 -	**Customers with higher discounts (e.g., Jane Waco, 13%) tend to have lower profit margins**, highlighting the need for discount optimization.
 -	**Top-performing customers received little to no discounts**, reinforcing the effectiveness of premium pricing for high-value customers.
 
-### 🎯**Strategic Recommendations**
+## **Strategic Recommendations**
 **1.  Implement VIP & Loyalty Programs for Top Customers**:
 -	**Offer exclusive discounts**, early access to new products, and personalized services for high-value customers.
 -	**Example**: Target **Tamara Chand & Raymond Buch** with priority services & retention plans.
@@ -524,20 +515,18 @@ Who are the top 20 customers generating the most profit across different states,
 -	Target **repeat buyers differently from one-time big spenders** to increase engagement.
 
 
-## **7.   Top 20 Most Profitable Products**
+# **7. Top Products**
 
-### **I. Project Overview**    
-**💡 Business Challenge**:
+## **Which 20 products are generating the highest profit across different categories, and how can we leverage this data to optimize product offerings, pricing strategies, and inventory management for maximum profitability**?
+
+### **Question Overview**
+**1. Business Challenge**:
 The company offers a wide range of products, but some significantly outperform others in terms of profitability. To streamline the product portfolio and boost overall profitability, the business needs a structured, data-driven approach to identifying and prioritizing high-performing products.
 
-**🎯 Project Goal**:
+**2. Objective of the Question**:
 This project aims to identify the top 20 most profitable products using key metrics such as profit, sales, quantity sold, and order volume. The insights derived will help the company refine pricing strategies, optimize inventory management and enhance product offerings for sustained growth.
 
-### **II. Key Business Question**      
-**🔍 Business Question**:
-Which 20 products are generating the highest profit across different categories, and how can we leverage this data to optimize product offerings, pricing strategies, and inventory management for maximum profitability?
-
-**🛠 Approach**:
+**3. Analytical Approach**:
 -	Write SQL queries to analyze product-level profitability trends.
 -	Identify top 20 most profitable products based on profit, sales, quantity sold, order volume, average discount (in %), and profit margin (in %).
 -	Provide data-driven recommendations for inventory optimization, pricing adjustments, and strategic product positioning.
@@ -546,13 +535,13 @@ Which 20 products are generating the highest profit across different categories,
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 ![7](https://github.com/user-attachments/assets/3648342d-da9d-46a0-b65f-0e620a9f29ee)
 
-### **📊 Query Result Visualizations**
+### **Query Result Visualizations**
 
 ![7a  Top 20 Most Profitable Products - Showcasing Profitability   Sales ](https://github.com/user-attachments/assets/7ad41078-9c28-4575-b888-43a69804ad42)
 
 ![7b  Top 20 Most Profitable Products](https://github.com/user-attachments/assets/3a603761-3a16-4b70-98b4-cf6577b36e66)
 
-### **🔎 Key Trends & Insights**
+## **Key Trends & Insights**
 **1.  High-Profit Leaders**: 
 -	**Canon imageCLASS 2200 Advanced Copier dominates with $25.2K profit**, making it the most profitable product.
 
@@ -574,7 +563,7 @@ Which 20 products are generating the highest profit across different categories,
 **7.  Impact of Discounts**:
 -	**Products with higher average discounts (e.g., Ibico EPK-21, 33%)** tend to have lower profit margins.
 
-### 🎯**Strategic Recommendations**
+## **Strategic Recommendations**
 **1.  Double Down on High-Profit Technology Products**:
 -	Prioritize **premium copiers, printers & shredders (Canon, HP, Zebra**)
 -	**Expand marketing** for high-margin products ($300+ per unit profit)
@@ -592,20 +581,19 @@ Which 20 products are generating the highest profit across different categories,
 -	Reallocate inventory & marketing spend to high-margin products
 
 
-## **8.  Top 20 Most Profitable Cities**
+# **8. High-Impact Cities**
 
-### **I. Project Overview**     
-**💡 Business Challenge**:
+## **Which 20 cities generate the highest profit across different states, and how can we use this insight to prioritize high-impact regions for optimizing sales strategies, discounts, and order management**?
+
+### **Question Overview**     
+**1. Business Challenge**:
 The company is looking to optimize its performance across different cities. Despite having operations in many areas, some cities significantly outperform others in terms of profitability, sales volume, and order frequency.
 
-**🎯 Project Goal**:
+**2. Objective of the Question**:
 This project aims to identify the top 20 most profitable cities based on sales, profit, and order frequency. The insights derived will help the company to optimize sales strategies, discount offerings, and regional operations for maximum profitability.
 
-### **II. Key Business Question**     
-**🔍 Business Question**:
-Which 20 cities generate the highest profit across different states, and how can we use this insight to prioritize high-impact regions for optimizing sales strategies, discounts, and order management?
 
-**🛠 Approach**: 
+**3. Analytical Approach**: 
 -	 Write SQL queries to analyze profit and sales trends across different cities. 
 -	Identify top 20 most profitable cities based on profitability, sales, quantity sold, order volume, average discount (in %), and profit margin (in %).
 -	Provide actionable recommendations for regional marketing strategies, discount optimization, and investment focus.
@@ -614,13 +602,13 @@ Which 20 cities generate the highest profit across different states, and how can
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 ![8](https://github.com/user-attachments/assets/7e74eff1-b8af-407e-ade6-b42cdcdcb4bc)
 
- ### **📊 Query Result Visualizations**
+ ### **Query Result Visualizations**
  
 ![8a  Top 20 Most Profitable Cities - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/a5d2b367-5116-4f39-ad10-da29370068e4)
 
 ![8b  Top 20 Most Profitable Cities ](https://github.com/user-attachments/assets/eaec405b-a3f4-4555-ad0e-3a1d2b408d51)
 
-### **🔎 Key Trends & Insights**
+## **Key Trends & Insights**
 **1.  Top Profitable Cities**:
 -	**New York City leads in total profit ($62,025.54) and sales ($256,343.56)**.
 -	**Los Angeles and Seattle follow**, though with **lower profit margins**.
@@ -642,7 +630,7 @@ Which 20 cities generate the highest profit across different states, and how can
 -	**Detroit, Jackson, and Newark all maintain profit margins above 30%**, suggesting strong pricing power.
 -	**Providence and Columbia have profit per unit above $40**, making them prime candidates for selective marketing strategies.
 
-### 🎯**Strategic Recommendations**
+## **Strategic Recommendations**
 **1.  Double Down on High-Performing Cities**:
 -	**Increase marketing spend and expand product offerings in New York, Los Angeles, and Seattle**—these cities are high-volume, high-profit hubs.
 -	Strengthen operations in these cities to maintain a **competitive edge and sustain growth**.
@@ -664,20 +652,18 @@ Which 20 cities generate the highest profit across different states, and how can
 -	**Avoid blanket discounts that dilute profitability**—instead, focus on strategic promotions where high-margin products can be upsold.
 
 
-## **9.   Top 30% Most Profitable States**
+# **9. State-Level Profitability**
 
-### **I. Project Overview**     
-**💡 Business Challenge**:
+## **Which states contribute the most to our profitability, and how can we focus on the top 30% to maximize sales, orders, and resource allocation**?
+
+### **Question Overview**    
+**1. Business Challenge**:
 The company operates across multiple states, but profitability varies significantly. Some states outperform others in terms of profit, order volume, and sales, while others lag behind.
 
-**🎯 Project Goal**:
+**2. Objective of the Question**:
 This project aims to identify the top 30% of the most profitable states based on profit contribution, sales volume, and order frequency. The insights derived will help optimize marketing efforts, resource allocation, and sales strategies to maximize profitability inhigh-performing states while enhancing performance in underperforming regions.
 
-### **II. Key Business Question**       
-**🔍 Business Question**:
-Which states contribute the most to our profitability, and how can we focus on the top 30% to maximize sales, orders, and resource allocation?
-
-**🛠 Approach**:
+**3. Analytical Approach**:
 -	Write SQL queries to analyze the top 30% of the most profitable states based on performance trends.
 -	Rank states based on profit contribution, sales, order frequency, average discount (in %), and profit margin (in %).
 -	Provide actionable recommendations for resource allocation and strategy optimization.
@@ -686,13 +672,13 @@ Which states contribute the most to our profitability, and how can we focus on t
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 ![9](https://github.com/user-attachments/assets/3cfff934-6362-4e57-b2ef-7d938d36fe23)
 
-### **📊 Query Result Visualizations**
+### **Query Result Visualizations**
 
 ![9a  Top 30% Most Profitable States - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/1e0cc79d-b2fd-4366-b3af-09503d216d0c)
 
 ![9b  Top 30% Most Profitable States](https://github.com/user-attachments/assets/8747adae-e63f-4fd5-94f5-306598814e3c)
 
-### **🔎 Key Trends & Insights**
+## **Key Trends & Insights**
 **1.  Top 5 Most Profitable States (Top 30%)**:
 -	**California leads with $77.84K in profit** and the **highest sales volume ($465.33K)**, showing strong market demand.
 -	**New York** follows closely with **$74.03K in profit** but achieves it with **lower sales ($310.85K), meaning higher profit efficiency (profit margin: 23.81%)**.
@@ -713,7 +699,7 @@ Which states contribute the most to our profitability, and how can we focus on t
 **5.	Cumulative Distribution & Market Coverage**:
 -	**The top 5 states (California, New York, Washington, Michigan, Virginia) contribute to 10% of cumulative profit distribution**, making them key focus areas for marketing and resource allocation.
 
-### 🎯**Strategic Recommendations**
+## **Strategic Recommendations**
 **1.   Top 30% of States Drive Profitability**:
 -	**California, New York, Washington, Michigan, and Virginia** contribute the highest profits.
 -	These states account for a significant portion of total sales and orders, making them prime targets for increased investment.
@@ -731,20 +717,18 @@ Which states contribute the most to our profitability, and how can we focus on t
 •	States beyond **Indiana (cumulative >12%) show diminishing returns**, meaning investment should be strategic.
 
 
-## **10.   Top 30% Most Profitable Sub-Categories**
+# **10. Product Subcategories**
 
-### **I. Project Overview**    
-**💡 Business Challenge**:
+### **Which product subcategories across different categories contribute the most to our profitability, and how can we focus on the top 30% to optimize sales and resource allocation**?
+
+### **Question Overview**   
+**1. Business Challenge**:
 The company is experiencing profitability challenges due to fluctuating sales and high market competition. Despite offering a broad range of products, only a subset of sub-categories significantly contributes to overall profitability, while others underperform or fail to generate enough revenue.
 
-**🎯 Project Goal**:
+**2. Objective of the Question**:
 This project aims to identify the top 30% most profitable product sub-categories based on profit contribution, sales volume, and margin. The insights derived will help optimize resource allocation, product offerings, and sales strategies for maximum profitability. Additionally, it will improve inventory planning, marketing focus, and overall business efficiency by prioritizing high-performing sub-categories.
 
-### **II. Key Business Question**       
-**🔍 Business Question**:
-Which product subcategories across different categories contribute the most to our profitability, and how can we focus on the top 30% to optimize sales and resource allocation?
-
-**🛠 Approach**:
+**3. Analytical Approach**:
 -	Write SQL queries to analyse the top 30% of the most profitable sub-categories based on performance trends.
 -	Rank product sub-categories based on profit contribution, sales, order frequency, average discount (in %), and profit margin (in %).
 -	Provide actionable recommendations for resource allocation and strategy optimization.	
@@ -753,13 +737,13 @@ Which product subcategories across different categories contribute the most to o
 ### **Here's the breakdown of RESULT based on the QUERY above**:
 ![10](https://github.com/user-attachments/assets/7c16a184-6c1b-49a7-a74e-45686396730f)
 
-### **📊 Query Result Visualizations**
+### **Query Result Visualizations**
 
 ![10a  Top 30% Most Profitable Sub-Categories - Showcasing Sales   Profitability](https://github.com/user-attachments/assets/55f88d4c-0ce6-43f6-ac06-907afcb4293d)
 
 ![10b  Top 30% Most Profitable Sub-Categories](https://github.com/user-attachments/assets/0b924081-8f28-4936-9166-11e0f9b46a18)
 
-### **🔎 Key Trends & Insights**
+## **Key Trends & Insights**
 **1.   Top Performers in Profit**: 
 -	**The Copiers sub-category leads in total profit with $55.62K**, followed by **Accessories at $48.29K**. These sub-categories are the most profitable, contributing significantly to the overall business success.
 
@@ -780,7 +764,7 @@ Which product subcategories across different categories contribute the most to o
 -	The top 30% most profitable sub-categories (Copiers, Accessories, Phones) account for roughly 70% of total profit.
 -	**Binders and Paper contribute less to overall profit**, despite high sales and order volumes.
 
-### 🎯**Strategic Recommendations**
+## **Strategic Recommendations**
 **1.   Prioritize High-Value, High-Profit Sub-Categories**:
 -	**Copiers & Paper**: Increase marketing for **premium copier sales** and **bulk purchasing incentives** for paper.
 -	**Accessories**: Maintain **steady promotions** while ensuring **cost efficiency**.
